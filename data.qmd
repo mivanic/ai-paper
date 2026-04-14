@@ -1,0 +1,6 @@
+# Data
+
+We use GTAP datbase version 11 with the reference year 2017 aggregated to 17 regions, seven commodities and seven factors. The regions are: Australia, New Zealand, China+Hong Kong, Japan, India, Canada, USA, Mexico, Argentina, Malaysia,  South Korea, Brazil, EU, UK, Russia, South Africa and the rest of the world (ROW). The commodities are: crops, animals, extract, food, manuf, svces and AI (communications and information sector). The factors include land, tech_aspros, clerks,  service_shop, off_mgr_pros, ag_othlowsk, capital, and natlres.
+
+
+
