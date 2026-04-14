@@ -9,16 +9,13 @@ author:
 abstract : "Technological advancements provide consumers with innovative products and fuel economic growth. Further, modern economic growth theory argues that the structural transformation from agriculture to industry and finally services is predicated on the ability for technological progress in a given country. The rapid rise of Artificial Intelligence (AI) is positioned to be the next great technological advance, with the ability to structurally alter production, much in the same way the Industrial Revolution changed manufacturing. But, like the Industrial Revolution, there will be winners and losers across sectors and countries."
 ---
 
-
 {{< include introduction.qmd >}}
-
 
 {{< include model.qmd >}}
 
 {{< include scenario.qmd >}}
 
 {{< include data.qmd >}}
-
 
 \newpage
 
