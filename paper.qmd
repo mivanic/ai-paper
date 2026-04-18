@@ -17,6 +17,10 @@ abstract : "Technological advancements provide consumers with innovative product
 
 {{< include data.qmd >}}
 
+{{< include results.qmd >}}
+
+{{< include conclusion.qmd >}}
+
 \newpage
 
 # Bibliography
