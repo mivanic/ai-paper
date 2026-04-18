@@ -1,0 +1,8 @@
+---
+title: "Conclusion"
+format: html
+---
+
+The Industrial Revolution, the Assembly Line, the mechanization of agriculture, robots on factory floors--these are all technological innovations that forced a realignment of labor. In each of these instances, laborers had to adapt to the situation, whether it was from learning a new skill or finding a new job. These innovations all led to leaps in global productivity, shaping the world as we now it today. The AI transition seems to be the next great technological innovation, one that will also force a realignment of labor. Unlike those noted previously, this innovation seems that it will affect higher skilled/wages more than unskilled labor. But, like all the others, capital is key and the gains seem like they will accure to those with the means to procure the innovation. 
+
+Given the potential for AI to affect many aspects of the global economy, there has been a lot of recent research. However, it is clear from the research (and any popular media posts) that no one has a good handle on the labor aspects of AI, as well as the potential productivity gains. 
