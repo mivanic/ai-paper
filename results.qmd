@@ -19,7 +19,7 @@ Real domeestic prices are impacted to a much smaller degree (@tbl-scenario1a-rea
 The resulting change in equivalent varaion are presented in @fig-scenario1-equivalent-variation. The figure shows that the change in the technology that allows the replacement of clerical labor with AI leads to substantial improvements in global welfare, wiht most countries experiencing welfare gains;  only India and the UK (in our sample) experience welfare losses.
 
 
-![EV (percentage of original expenditure) as a result of implementing a technology that allows for replacement of clerical labor with AI on par for both labor assumptions](assets/figure-scenario-1a-1b-ev.png){#fig-scenario1-equivalent-variation}
+![EV (percentage of original expenditure) as a result of implementing a technology that allows for replacement of clerical labor with AI on par for three labor assumptions](assets/figure-scenario-1a-1b-1c-ev.png){#fig-scenario1-equivalent-variation}
 
 
 {{< include assets/table-scenario-1b-real-factor-prices.txt >}}
