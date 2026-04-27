@@ -8,12 +8,14 @@ In this scenario, we modified the model to allow for labor to be substituted wit
 In our sceanrio, we assume the standard closure of fixed quantities of factors. This means that supply of labor is perfecntly inelastic. We find that allowing for a replacement of clerical labor with AI results in a steep declines in depand for clerical labor and a sharp reduction in its returns (@tbl-scenario1a-real-factor-prices). The real returns to other factors, especially land, capital and tecnical labor increase.
 
 {{< include assets/table-scenario-1a-real-factor-prices.txt >}}
-: Real factor price changes as a result of implementing a technology to substitute clerical labor on par with no-unemployment assumption for all labor (wages adjust){#tbl-scenario1a-real-factor-prices}
+: Real factor price changes as a result of implementing a technology to substitute clerical labor on par with no-unemployment assumption for all labor (wages adjust)
+{#tbl-scenario1a-real-factor-prices}
 
 Real domeestic prices are impacted to a much smaller degree (@tbl-scenario1a-real-commodity-prices) with the largest increases observed in crops, animals, extract. The real price of AI, on the other hand changes very little, and it many regions falls.
 
 {{< include assets/table-scenario-1a-real-commodity-prices.txt >}}
-: Real commodity price changes as a result of implementing a technology to substitute clerical labor on par with no-unemployment assumption for all labor (wages adjust){#tbl-scenario1a-real-commodity-prices}
+: Real commodity price changes as a result of implementing a technology to substitute clerical labor on par with no-unemployment assumption for all labor (wages adjust)
+{#tbl-scenario1a-real-commodity-prices}
 
 
 The resulting change in equivalent varaion are presented in @fig-scenario1-equivalent-variation. The figure shows that the change in the technology that allows the replacement of clerical labor with AI leads to substantial improvements in global welfare, wiht most countries experiencing welfare gains;  only India and the UK (in our sample) experience welfare losses.
