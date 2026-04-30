@@ -4,3 +4,13 @@
 scenario_files
 *.Rproj
 .Rhistory
+*.jld2
+*.html
+*.Rmd
+*.xlsx
+model/*
+paper_files/*
+*.jl
+results_files/*
+*.toml
+Data/*
