@@ -6,7 +6,9 @@ bibliography: references.bib
 author:
     - Maros Ivanic
     - Jayson Beckman
-abstract : "Technological advancements provide consumers with innovative products and fuel economic growth. Further, modern economic growth theory argues that the structural transformation from agriculture to industry and finally services is predicated on the ability for technological progress in a given country. The rapid rise of Artificial Intelligence (AI) is positioned to be the next great technological advance, with the ability to structurally alter production, much in the same way the Industrial Revolution changed manufacturing. But, like the Industrial Revolution, there will be winners and losers across sectors and countries."
+abstract : "Technological advancements provide consumers with innovative products and fuel economic growth. These advancements are necessary for the structural transformation from agriculture to industry and finally services. Artificial Intelligence (AI) is positioned to be the next great technological advance, with the ability to structurally alter production, much in the same way the Industrial Revolution changed manufacturing. But, like the Industrial Revolution, there will be winners and losers across sectors and countries."
+
+highlights: "We operationalize AI in a widely used CGE model. Results indicate that." 
 ---
 
 {{< include introduction.qmd >}}

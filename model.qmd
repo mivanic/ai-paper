@@ -6,7 +6,9 @@ bibliography: references.bib
 
 We use a model that is based on the standard, comparative static GTAP model, as implemented by @ivanic2025. This model represents all key markets, i.e., production, input demand, factor incomes, consumption, trade and savings, in a global general equilibrium  setting under the assumption of zero economic profits and constant returns to scale. The production is represented as a nested CES production fuction that combines factors into a value-added composite and intermediate inputs into an intermediate input composite at the bottom level. They are then combined into the final output at the top level.
 
-In the standard GTAP model value-added is strictly composed of productive factors, i.e., land, labor, capital and natural resources, without the possibility to subsititue labor with a commodity which makes it difficult to analyze a sceanario where computing services, i.e., AI, can directly replace labor in the production process.  To allow for such substitution, we modified the model so that the total effective labor used in production by an industry is a summation of the actual labor used and any AI used as labor replacement. 
+In the standard GTAP model value-added is strictly composed of productive factors, i.e., land, labor, capital and natural resources, without the possibility to subsititue labor with a commodity which makes it difficult to analyze a sceanario where computing services, i.e., AI, can directly replace labor in the production process.  To allow for such substitution, we modify the model so that the total effective labor used in production by an industry is a summation of the actual labor used and any AI used as labor replacement.
+
+We use GTAP as the model has been widely used to analyze numerous policies such as Farm to Fork (@Beckman 2022a, @Beckman 2022b), biofuels (@Taheripour), and trade agreements (@Beckman 2023). Given the importance of this model, work has been done to enhance or validate aspects of the model.  
 
 
 ## Implemenation of additive combination of labor and AI using a CES production function
