@@ -13,3 +13,4 @@ paper_files/*
 *.jl
 results_files/*
 *.toml
+Data/*
