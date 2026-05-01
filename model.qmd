@@ -8,7 +8,7 @@ We use a model that is based on the standard, comparative static GTAP model, as 
 
 In the standard GTAP model value-added is strictly composed of productive factors, i.e., land, labor, capital and natural resources, without the possibility to subsititue labor with a commodity which makes it difficult to analyze a sceanario where computing services, i.e., AI, can directly replace labor in the production process. To allow for such substitution, we modify the model so that the total effective labor used in production by an industry is a summation of the actual labor used and any AI used as labor replacement.
 
-We use GTAP as the model has been widely used to analyze numerous policies such as Farm to Fork \[[@beckman2022], [@beckman2022]\], biofuels \[[@taheripour2010]\], and trade agreements \[[@beckman2023]\]. Given the importance of this model, research has also focused on enhancing or validating aspects of the model. [@hertel2007] estimate Armington elasticities that are still used in the GTAP model.[^1] [@beckman2011] validate the energy-based GTAP model by also examining the elasticities used in the model.
+We use GTAP as the model has been widely used to analyze numerous policies such as Farm to Fork [@beckman2022; @beckman2022], biofuels [@taheripour2010], and trade agreements [@beckman2023]. Given the importance of this model, research has also focused on enhancing or validating aspects of the model. [@hertel2007] estimate Armington elasticities that are still used in the GTAP model.[^1] [@beckman2011] validate the energy-based GTAP model by also examining the elasticities used in the model.
 
 [^1]: [@plevin2015] show that this elasticity is the most important standard parameter in the model when determining economic impacts across regions.
 
@@ -22,8 +22,7 @@ $$e = a + l$$
 
 This equation could be well approximated by a CES production function with $\rho$ equal one, $\gamma=2$, $\alpha_a$=0.5, $\alpha_l=0.5$:
 
-$$e = \gamma (\alpha_a a^\rho + \alpha_l l^\rho )^{\frac{1}{\rho}}$$
- {#eq-labor-combination}
+$$e = \gamma (\alpha_a a^\rho + \alpha_l l^\rho )^{\frac{1}{\rho}}$$ {#eq-labor-combination}
 
 The issue with this set up is that $\rho=1$ would require infinite elasticity ($\sigma = \infty$), but the relationship holds well with $\sigma$ set to a much lower value, e.g., 20, which yields $\rho=0.95$.
 
