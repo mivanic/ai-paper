@@ -9,6 +9,9 @@ author:
 abstract : "Technological advancements provide consumers with innovative products and fuel economic growth. These advancements are necessary for the structural transformation from agriculture to industry and finally services. Artificial Intelligence (AI) is positioned to be the next great technological advance, with the ability to structurally alter production, much in the same way the Industrial Revolution changed manufacturing. But, like the Industrial Revolution, there will be winners and losers across sectors and countries."
 
 highlights: "We operationalize AI in a widely used CGE model. Results indicate that." 
+crossref:
+  appendix-title: "App."
+  appendix-delim: ":" 
 ---
 
 {{< include introduction.qmd >}}
@@ -22,6 +25,8 @@ highlights: "We operationalize AI in a widely used CGE model. Results indicate t
 {{< include results.qmd >}}
 
 {{< include conclusion.qmd >}}
+
+{{< include appendix.qmd >}}
 
 \newpage
 

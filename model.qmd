@@ -1,14 +1,10 @@
----
-bibliography: references.bib
----
-
 # Model
 
 We use a model that is based on the standard, comparative static GTAP model, as implemented by @ivanic2025. This model represents all key markets, i.e., production, input demand, factor incomes, consumption, trade and savings, in a global general equilibrium  setting under the assumption of zero economic profits and constant returns to scale. The production is represented as a nested CES production fuction that combines factors into a value-added composite and intermediate inputs into an intermediate input composite at the bottom level. They are then combined into the final output at the top level.
 
 In the standard GTAP model value-added is strictly composed of productive factors, i.e., land, labor, capital and natural resources, without the possibility to subsititue labor with a commodity which makes it difficult to analyze a sceanario where computing services, i.e., AI, can directly replace labor in the production process.  To allow for such substitution, we modify the model so that the total effective labor used in production by an industry is a summation of the actual labor used and any AI used as labor replacement.
 
-We use GTAP as the model has been widely used to analyze numerous policies such as Farm to Fork (@Beckman 2022a, @Beckman 2022b), biofuels (@Taheripour), and trade agreements (@Beckman 2023). Given the importance of this model, work has been done to enhance or validate aspects of the model.  
+We use GTAP as the model has been widely used to analyze numerous policies such as Farm to Fork [@beckman2022a; @beckman2022b], biofuels [@taheripour], and trade agreements [@beckman2023]. Given the importance of this model, work has been done to enhance or validate aspects of the model.  
 
 
 ## Implemenation of additive combination of labor and AI using a CES production function
@@ -69,3 +65,21 @@ $$
 e = \frac{\psi+1}{1}\left(\frac{\psi}{\psi+1} a^{0.95}  +  \frac{1}{\psi+1} l^{0.95} \right)^\frac{1}{0.95}
 $$
 
+```{mermaid}
+%%| fig-cap: "Inroduction of AI in the production function"
+%%| label: fig-AI-GTAP
+%%| fig-width: 6.5
+flowchart TB
+  O[Output] --- VA[Value-added]
+  O --- I[Input mix]
+  VA --- LC[Clerical labor]
+  VA --- LO[Other labor]
+  VA --- K[Capital]
+  I --- CO[Other commodities]
+  I --- AI[AI]
+  LC --- HLC[Human clarical labor]
+  LC --- AILC[AI]
+
+style AI fill:pink
+style AILC fill:pink
+```
