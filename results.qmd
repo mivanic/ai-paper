@@ -100,6 +100,94 @@ We modify the model to allow for clerical labor to be substituted with artificia
 
 \normalsize
 
+
+\scriptsize
+{{< include assets/table-scenario-devonly_nounemployment_tax-real-factor-prices.txt >}}
+: Real factor price changes as a result of all developed countries implementing a technology to substitute clerical labor on par with no-unemployment assumption for all labor (wages adjust)  + 100% tax on AI
+{#tbl-scenario1a-real-factor-prices}
+
+\normalsize
+
+\scriptsize
+{{< include assets/table-scenario-devonly_nounemployment_tax-real-commodity-prices.txt >}}
+: Real consumer price changes as a result of all developed countries implementing a technology to substitute clerical labor on par with no-unemployment assumption for all labor (wages adjust) + 100% tax on AI
+{#tbl-scenario1a-real-commodity-prices}
+
+\normalsize
+
+\scriptsize
+{{< include assets/table-scenario-devonly_nounemployment_tax-commodity-output.txt >}}
+: Commodity output as a result of all developed countries implementing a technology to substitute clerical labor on par with no-unemployment assumption for all labor (wages adjust)
+{#tbl-scenario1a-real-commodity-prices}
+
+\normalsize
+
+\scriptsize
+{{< include assets/table-scenario-devonly_unemployment_tax-real-factor-prices.txt >}}
+: Real factor price changes as a result of all developed countries implementing a technology to substitute clerical labor on par with unemployment assumption for all labor (labor quantity adjust)  + 100% tax on AI
+{#tbl-scenario1a-real-factor-prices}
+
+\normalsize
+
+\scriptsize
+{{< include assets/table-scenario-devonly_unemployment_tax-real-commodity-prices.txt >}}
+: Real consumer price changes as a result of all developed countries implementing a technology to substitute clerical labor on par with unemployment assumption for all labor (labor quantity adjust) + 100% tax on AI
+{#tbl-scenario1a-real-commodity-prices}
+
+\normalsize
+
+\scriptsize
+{{< include assets/table-scenario-devonly_unemployment_tax-commodity-output.txt >}}
+: Commodity output as a result of all developed countries implementing a technology to substitute clerical labor on par with unemployment assumption for all labor (labor quantity adjust) + 100% tax on AI
+{#tbl-scenario1a-real-commodity-prices}
+
+\normalsize
+
+
+\scriptsize
+{{< include assets/table-scenario-world_nounemployment_tax-real-factor-prices.txt >}}
+: Real factor price changes as a result of all  countries implementing a technology to substitute clerical labor on par with no-unemployment assumption for all labor (wages adjust)  + 100% tax on AI
+{#tbl-scenario1a-real-factor-prices}
+
+\normalsize
+
+\scriptsize
+{{< include assets/table-scenario-world_nounemployment_tax-real-commodity-prices.txt >}}
+: Real consumer price changes as a result of all countries implementing a technology to substitute clerical labor on par with no-unemployment assumption for all labor (wages adjust)  + 100% tax on AI
+{#tbl-scenario1a-real-commodity-prices}
+
+\normalsize
+
+\scriptsize
+{{< include assets/table-scenario-world_nounemployment_tax-commodity-output.txt >}}
+: Commodity output as a result of all countries implementing a technology to substitute clerical labor on par with no-unemployment assumption for all labor (wage adjust) + 100% tax on AI
+{#tbl-scenario1a-real-commodity-prices}
+
+\normalsize
+
+
+\scriptsize
+{{< include assets/table-scenario-world_unemployment_tax-real-factor-prices.txt >}}
+: Real factor price changes as a result of all  countries implementing a technology to substitute clerical labor on par with unemployment assumption for all labor (labor quantity adjust)  + 100% tax on AI
+{#tbl-scenario1a-real-factor-prices}
+
+\normalsize
+
+\scriptsize
+{{< include assets/table-scenario-world_unemployment_tax-real-commodity-prices.txt >}}
+: Real consumer price changes as a result of all countries implementing a technology to substitute clerical labor on par with unemployment assumption for all labor (labor quantity adjust) + 100% tax on AI
+{#tbl-scenario1a-real-commodity-prices}
+
+\normalsize
+
+\scriptsize
+{{< include assets/table-scenario-world_unemployment_tax-commodity-output.txt >}}
+: Commodity output as a result of all countries implementing a technology to substitute clerical labor on par with unemployment assumption for all labor (labor quantity adjust) + 100% tax on AI
+{#tbl-scenario1a-real-commodity-prices}
+
+\normalsize
+
+
 ![EV (percentage of original expenditure) as a result of implementing a technology that allows for replacement of clerical labor with AI on par for three labor assumptions](assets/figure-ev.png){#fig-scenario1-equivalent-variation}
 
 ![Change in quantity of clerical labor as a result of implementing a technology that allows for replacement of clerical labor with AI on par with unemployment assumption for clerical labor (fixed clerical nominal wages)](assets/figure-qe-clerks.png){#fig-scenario1b-quantity-qe-clerks}
