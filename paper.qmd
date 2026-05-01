@@ -6,7 +6,7 @@ bibliography: references.bib
 author:
     - Maros Ivanic
     - Jayson Beckman
-abstract : "There is no bigger topic in economics right now than the potential impacts from Artificial Intelligence (AI). And there no greater need in economic modeling than to operationalize AI within our economic frameworks. This paper does so for a computable general equilibrium model by allowing the possibility to substitute labor for AI. Results indicate that"
+abstract : "There is no bigger topic in economics right now than the potential impacts from Artificial Intelligence (AI). And there no greater need in economic modeling than to operationalize AI within economic frameworks. This paper incorporates AI in computable general equilibrium model by allowing the possibility to substitute labor for AI. Results indicate that"
 
 highlights: "We operationalize AI in a widely used CGE model. Results indicate that." 
 crossref:
