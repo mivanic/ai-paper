@@ -8,7 +8,7 @@ We use a model that is based on the standard, comparative static GTAP model, as 
 
 In the standard GTAP model value-added is strictly composed of productive factors, i.e., land, labor, capital and natural resources, without the possibility to subsititue labor with a commodity which makes it difficult to analyze a sceanario where computing services, i.e., AI, can directly replace labor in the production process.  To allow for such substitution, we modify the model so that the total effective labor used in production by an industry is a summation of the actual labor used and any AI used as labor replacement.
 
-We use GTAP as the model has been widely used to analyze numerous policies such as Farm to Fork (@Beckman 2022a, @Beckman 2022b), biofuels (@Taheripour), and trade agreements (@Beckman 2023). Given the importance of this model, work has been done to enhance or validate aspects of the model.  
+We use GTAP as the model has been widely used to analyze numerous policies such as Farm to Fork (@Beckman 2022a, @Beckman 2022b), biofuels (@Taheripour), and trade agreements (@Beckman 2023). Given the importance of this model, research has also focused on enhancing or validating aspects of the model.  
 
 
 ## Implemenation of additive combination of labor and AI using a CES production function
