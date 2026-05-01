@@ -8,11 +8,7 @@ We use a model that is based on the standard, comparative static GTAP model, as 
 
 In the standard GTAP model value-added is strictly composed of productive factors, i.e., land, labor, capital and natural resources. There is no possibility to subsititue labor with a commodity, which makes it difficult to analyze a sceanario where computing services, i.e., AI, can directly replace labor in the production process. To allow for such substitution, we modify the model so that the total effective labor used in production by an industry is a summation of the actual labor used and any AI used as labor replacement.
 
-<<<<<<< HEAD
-We use GTAP for this work as this model has been widely used to analyze numerous policies such as Farm to Fork [@beckman2021, @beckman2022], biofuels [@taheripour2010], and trade agreements [@beckman2023]. Given the importance of this model, research has also focused on enhancing or validating aspects of the model. @hertel2007 estimate Armington elasticities that are still used in the GTAP model.[^1] @beckman2011 validate the energy-based GTAP model by also examining the elasticities used in the model.
-=======
-We use GTAP as the model has been widely used to analyze numerous policies such as Farm to Fork [@beckman2022; @beckman2022], biofuels [@taheripour2010], and trade agreements [@beckman2023]. Given the importance of this model, research has also focused on enhancing or validating aspects of the model. [@hertel2007] estimate Armington elasticities that are still used in the GTAP model.[^1] [@beckman2011] validate the energy-based GTAP model by also examining the elasticities used in the model.
->>>>>>> db824b4dd38d928f59f30359a1aa8b6da9c1f69e
+We use GTAP for this work as this model has been widely used to analyze numerous policies such as Farm to Fork [@beckman2021, @beckman2022], biofuels [@taheripour2010], and trade agreements [@beckman2023]. Given the importance of this model, research has also focused on enhancing or validating aspects of the model. @hertel2007 estimate Armington elasticities that are still used in the GTAP model.[^1] @beckman2011 validate the energy-based GTAP model by also examining the elasticities used in the model. Note that the energy-based GTAP model investigated in that work, moved energy to the value-added nest to allow the substitution of energy with capital.
 
 [^1]: @plevin2015 show that this elasticity is the most important standard parameter in the model when determining economic impacts across regions.
 
@@ -24,29 +20,29 @@ A simple replacement of labor and AI where AI ($a$) and labor ($l$) can replace 
 
 $$e = a + l$$
 
-This equation could be well approximated by a CES production function with $\rho$ equal one, $\gamma=2$, $\alpha_a$=0.5, $\alpha_l=0.5$:
+This equation could be well approximated by a CES production function with $\rho$ equal to one, $\gamma=2$, $\alpha_a$=0.5, $\alpha_l=0.5$:
 
 $$e = \gamma (\alpha_a a^\rho + \alpha_l l^\rho )^{\frac{1}{\rho}}$$ {#eq-labor-combination}
 
 The issue with this set up is that $\rho=1$ would require infinite elasticity ($\sigma = \infty$), but the relationship holds well with $\sigma$ set to a much lower value, e.g., 20, which yields $\rho=0.95$.
 
-The GTAP model has been histoircally based on input-output tables, which are expressed in values, with litte information on quantities. Beacuse the model works for any choice of price and quantity as long as the value is correct, the implementation of the model typically sets some of the prices to one and the quantities fall out of the calibration.
+The GTAP model data for countries is based on input-output tables, which are expressed in values, with litte information on quantities. Because the model works for any choice of price and quantity as long as the value is correct, the implementation of the model typically sets some of the prices to one and the quantities fall out of the calibration.
 
-To introduce relationship @eq-labor-combination, however, it is important that the quantities of ai and labor can be added meaningfully. To do that, we assume that AI can substitute labor at their value equivalents, i.e., a dollar worth of labor can be replaced by a dollar worth of ai at the before shock prices. Thus we calibrate our model by setting the domestic price of AI and labor to one, allowing for the quantities to be additive. In our scenario, we then set the distributive parameters to one half and the scaling parameeter to two:
+To introduce relationship @eq-labor-combination, however, it is important that the quantities of AI and labor can be added meaningfully. To do that, we assume that AI can substitute for labor at their value equivalents, i.e., a dollar worth of labor can be replaced by a dollar worth of AI at the before shock prices. Thus we calibrate our model by setting the domestic price of AI and labor to one, allowing for the quantities to be additive. In our scenario, we then set the distributive parameters to one half and the scaling parameeter to two:
 
 $$e = a + l \approx e = 2 (0.5 a^{0.95} + 0.5 l^{0.95} )^{\frac{1}{0.95}}$$
 
-Naturally, during the simulation, we expect that the relative prices of labor and AI will diverge; however, the relationship would still hold quantities.
+Naturally, during the simulation, we expect that the relative prices of labor and AI will diverge; however, the relationship would still hold for quantities.
 
-## 2.2 Implementing different substitution ratio between AI and labor
+## 2.2 Implementing different substitution ratios between AI and labor
 
-We can extend our idea to the situation where the substitution of labor and AI is not a one-to-one relationship; for example, it possible that in some situation more units of AI are needed to replace a unit of labor, e.g., if the labor is more complex. In this case the relationsihp driving the amount of effective labor would be:
+We can extend our idea to the situation where the substitution of labor and AI is not a one-to-one relationship; for example, it is possible that in some situations more units of AI are needed to replace a unit of labor, e.g., if the labor is more complex. In this case the relationsihp driving the amount of effective labor would be:
 
 $$e = \psi a + l$$
 
 where $\psi$ represents the coefficient representing the number of units of AI needed to replace one unit of labor.
 
-In this case, we can approximate this relationship witha constant-returns to scale CES function like this:
+In this case, we can approximate this relationship with a constant-returns to scale CES function:
 
 $$e = \psi a + l \rightarrow e = \frac{\psi+1}{1}\left(\frac{\psi}{\psi+1} a  +  \frac{1}{\psi+1} l \right)$$
 
