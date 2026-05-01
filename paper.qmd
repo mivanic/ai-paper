@@ -6,7 +6,7 @@ bibliography: references.bib
 author:
     - Maros Ivanic
     - Jayson Beckman
-abstract : "Technological advancements provide consumers with innovative products and fuel economic growth. These advancements are necessary for the structural transformation from agriculture to industry and finally services. Artificial Intelligence (AI) is positioned to be the next great technological advance, with the ability to structurally alter production, much in the same way the Industrial Revolution changed manufacturing. But, like the Industrial Revolution, there will be winners and losers across sectors and countries."
+abstract : "There is no bigger topic in economics right now then the potential impacts from Artificial Intelligence (AI). And there no greater need in economic modeling than to operationalize AI within our economic frameworks. This paper does so for a computable general equilibrium model by allowing the possibility to substitute labor for AI. Results indicate that"
 
 highlights: "We operationalize AI in a widely used CGE model. Results indicate that." 
 crossref:
