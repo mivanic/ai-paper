@@ -2,19 +2,23 @@
 bibliography: references.bib
 ---
 
-# Model
+# 2. Model
 
-We use a model that is based on the standard, comparative static GTAP model, as implemented by @ivanic2025. This model represents all key markets, i.e., production, input demand, factor incomes, consumption, trade and savings, in a global general equilibrium setting under the assumption of zero economic profits and constant returns to scale. The production is represented as a nested CES production fuction that combines factors into a value-added composite and intermediate inputs into an intermediate input composite at the bottom level. They are then combined into the final output at the top level.
+We use a model that is based on the standard, comparative static GTAP model, as implemented by @ivanic2025. This model represents all key markets, i.e., production, input demand, factor incomes, consumption, trade and savings, in a global general equilibrium setting under the assumption of zero economic profits and constant returns to scale. Production is represented as a nested CES production fuction that combines factors into a value-added composite and intermediate inputs into an intermediate input composite at the bottom level. They are then combined into the final output at the top level.
 
-In the standard GTAP model value-added is strictly composed of productive factors, i.e., land, labor, capital and natural resources, without the possibility to subsititue labor with a commodity which makes it difficult to analyze a sceanario where computing services, i.e., AI, can directly replace labor in the production process. To allow for such substitution, we modify the model so that the total effective labor used in production by an industry is a summation of the actual labor used and any AI used as labor replacement.
+In the standard GTAP model value-added is strictly composed of productive factors, i.e., land, labor, capital and natural resources. There is no possibility to subsititue labor with a commodity, which makes it difficult to analyze a sceanario where computing services, i.e., AI, can directly replace labor in the production process. To allow for such substitution, we modify the model so that the total effective labor used in production by an industry is a summation of the actual labor used and any AI used as labor replacement.
 
+<<<<<<< HEAD
+We use GTAP for this work as this model has been widely used to analyze numerous policies such as Farm to Fork [@beckman2021, @beckman2022], biofuels [@taheripour2010], and trade agreements [@beckman2023]. Given the importance of this model, research has also focused on enhancing or validating aspects of the model. @hertel2007 estimate Armington elasticities that are still used in the GTAP model.[^1] @beckman2011 validate the energy-based GTAP model by also examining the elasticities used in the model.
+=======
 We use GTAP as the model has been widely used to analyze numerous policies such as Farm to Fork [@beckman2022; @beckman2022], biofuels [@taheripour2010], and trade agreements [@beckman2023]. Given the importance of this model, research has also focused on enhancing or validating aspects of the model. [@hertel2007] estimate Armington elasticities that are still used in the GTAP model.[^1] [@beckman2011] validate the energy-based GTAP model by also examining the elasticities used in the model.
+>>>>>>> db824b4dd38d928f59f30359a1aa8b6da9c1f69e
 
-[^1]: [@plevin2015] show that this elasticity is the most important standard parameter in the model when determining economic impacts across regions.
+[^1]: @plevin2015 show that this elasticity is the most important standard parameter in the model when determining economic impacts across regions.
 
-## Implemenation of additive combination of labor and AI using a CES production function
+## 2.1 Implemenation of additive combination of labor and AI using a CES production function
 
-Given that the GTAP model uses extensively CES functions to model most of its demand relationships (e.g., value-added components, inputs into the intermediate input bundle, or their sourcing from imports and domestic production, etc.), our implementation utilize a CES production function as well to approximate the additive combination of human labor and AI.
+Given that the GTAP model extensively uses CES functions to model most of its demand relationships (e.g., value-added components, inputs into the intermediate input bundle, or their sourcing from imports and domestic production, etc.), our implementation utilizes a CES production function as well to approximate the additive combination of human labor and AI.
 
 A simple replacement of labor and AI where AI ($a$) and labor ($l$) can replace each other freely to produce effective labor ($e$) would be represented by a simple summation:
 
@@ -34,7 +38,7 @@ $$e = a + l \approx e = 2 (0.5 a^{0.95} + 0.5 l^{0.95} )^{\frac{1}{0.95}}$$
 
 Naturally, during the simulation, we expect that the relative prices of labor and AI will diverge; however, the relationship would still hold quantities.
 
-## Implementing different substitution ratio between AI and labor
+## 2.2 Implementing different substitution ratio between AI and labor
 
 We can extend our idea to the situation where the substitution of labor and AI is not a one-to-one relationship; for example, it possible that in some situation more units of AI are needed to replace a unit of labor, e.g., if the labor is more complex. In this case the relationsihp driving the amount of effective labor would be:
 

@@ -1,4 +1,4 @@
-# Introduction
+# 1. Introduction
 
 Technological advancements provide consumers with innovative products and help fuel economic growth. Further, modern economic growth theory argues that the structural transformation from an agriculture-labor intensive society to manufacturing and finally services is predicated on the ability for technological progress in a given country. The rapid rise of artificial intelligence (AI) is positioned to be the next great technological advance, structurally altering production, much in the same way the Industrial Revolution changed manufacturing. But, like the Industrial Revolution, there will be winners and losers across sectors and countries, and the promise of adjustments to the labor force. In this work, we use a computable general equilibrium (CGE) model to determine what countries and what sectors gain and lose from the AI revolution.
 
