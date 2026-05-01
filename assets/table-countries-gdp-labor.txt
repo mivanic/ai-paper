@@ -1,0 +1,177 @@
+| Country                      | Share of labor in agriculture | Share of labor in manufacturing | GDP per capita |
+|------------------------------|-------------------------------|---------------------------------|----------------|
+|                  Afghanistan |                          42.5 |                       `missing` |            497 |
+|                      Albania |                         36.42 |                       `missing` |          6,069 |
+|                      Algeria |                           9.6 |                       `missing` |          4,468 |
+|                       Angola |                         50.73 |                            2.55 |          2,494 |
+|                    Argentina |                          0.06 |                           11.35 |          9,956 |
+|                      Armenia |                         24.05 |                            9.51 |          4,597 |
+|                    Australia |                          2.56 |                            7.47 |         55,195 |
+|                      Austria |                          3.66 |                           15.91 |         49,886 |
+|                   Azerbaijan |                            36 |                            5.42 |          4,806 |
+|                      Bahamas |                           2.2 |                            2.81 |         33,640 |
+|                      Bahrain |                          0.94 |                       `missing` |         27,260 |
+|                   Bangladesh |                          38.3 |                       `missing` |          2,130 |
+|                     Barbados |                          2.65 |                            2.79 |         21,912 |
+|                      Belarus |                         11.06 |                           17.43 |          6,838 |
+|                      Belgium |                          0.92 |                           12.06 |         46,717 |
+|                       Belize |                          16.8 |                            7.98 |          6,172 |
+|                        Benin |                         38.27 |                           13.75 |          1,131 |
+|                       Bhutan |                         55.78 |                            7.48 |          3,577 |
+|                      Bolivia |                         30.54 |                           11.22 |          4,203 |
+|       Bosnia and Herzegovina |                         17.96 |                           18.64 |          6,122 |
+|                     Botswana |                          19.9 |                            6.73 |          7,172 |
+|                       Brazil |                          9.08 |                           11.59 |          9,030 |
+|                       Brunei |                          1.95 |                             4.3 |         30,427 |
+|                     Bulgaria |                          6.62 |                           18.56 |         10,354 |
+|                 Burkina Faso |                         26.21 |                            5.39 |            765 |
+|                      Burundi |                         86.21 |                       `missing` |            234 |
+|                     Cambodia |                         34.53 |                           15.09 |          2,226 |
+|                     Cameroon |                         43.49 |                       `missing` |          1,555 |
+|                       Canada |                          1.51 |                            9.15 |         46,353 |
+|                   Cape Verde |                          10.6 |                            9.65 |          4,381 |
+|     Central African Republic |                         69.85 |                       `missing` |            449 |
+|                         Chad |                         75.06 |                       `missing` |            893 |
+|                        Chile |                          8.98 |                             9.8 |         14,496 |
+|                        China |                         25.33 |                           28.14 |         10,343 |
+|                     Colombia |                         15.77 |                           11.66 |          6,473 |
+|                      Comoros |                         34.38 |                       `missing` |          1,510 |
+|                        Congo |                         33.53 |                       `missing` |          2,488 |
+|                   Costa Rica |                         11.97 |                           10.06 |         12,885 |
+|                Cote d'Ivoire |                         40.15 |                            6.91 |          2,142 |
+|                      Croatia |                          6.19 |                           17.81 |         15,564 |
+|                         Cuba |                          17.4 |                       `missing` |          9,232 |
+|                       Cyprus |                          2.41 |                            7.27 |         29,227 |
+|                      Czechia |                          2.66 |                           27.44 |         24,063 |
+| Democratic Republic of Congo |                          64.3 |                       `missing` |            504 |
+|                      Denmark |                          2.22 |                           10.96 |         59,404 |
+|                     Djibouti |                         24.55 |                       `missing` |          2,837 |
+|           Dominican Republic |                          8.78 |                           10.09 |          8,183 |
+|                      Ecuador |                         29.74 |                           10.26 |          6,205 |
+|                        Egypt |                         20.62 |                           12.96 |          2,963 |
+|                  El Salvador |                         16.29 |                           14.85 |          4,320 |
+|            Equatorial Guinea |                         39.51 |                       `missing` |          6,804 |
+|                      Estonia |                          3.17 |                           18.46 |         24,021 |
+|                     Eswatini |                         12.15 |                       `missing` |          3,913 |
+|                     Ethiopia |                         66.63 |                       `missing` |            793 |
+|                         Fiji |                         17.61 |                       `missing` |          5,842 |
+|                      Finland |                          3.78 |                           12.93 |         48,358 |
+|                       France |                          2.53 |                           11.77 |         40,408 |
+|             French Polynesia |                          6.83 |                       `missing` |         21,583 |
+|                        Gabon |                         29.96 |                       `missing` |          7,441 |
+|                       Gambia |                         27.03 |                       `missing` |            738 |
+|                      Georgia |                         38.15 |                             5.8 |          4,741 |
+|                      Germany |                          1.21 |                           18.88 |         47,656 |
+|                        Ghana |                         29.75 |                       `missing` |          2,187 |
+|                       Greece |                          11.6 |                            9.62 |         19,335 |
+|                    Guatemala |                          31.3 |                           11.65 |          4,512 |
+|                       Guinea |                         60.65 |                       `missing` |          1,031 |
+|                Guinea-Bissau |                         60.48 |                            5.55 |            811 |
+|                       Guyana |                         15.44 |                           10.33 |          6,406 |
+|                        Haiti |                         29.03 |                       `missing` |          1,352 |
+|                     Honduras |                         29.49 |                           13.72 |          2,502 |
+|                    Hong Kong |                          0.17 |                            2.71 |         48,359 |
+|                      Hungary |                          4.72 |                           22.12 |         17,013 |
+|                      Iceland |                          4.04 |                            9.34 |         69,296 |
+|                        India |                          42.6 |                           12.33 |          2,041 |
+|                    Indonesia |                          28.5 |                           14.38 |          4,107 |
+|                         Iran |                         17.37 |                           17.56 |          3,997 |
+|                         Iraq |                         18.27 |                       `missing` |          5,672 |
+|                      Ireland |                          4.43 |                           10.95 |         81,828 |
+|                       Israel |                          0.92 |                            9.97 |         44,251 |
+|                        Italy |                          3.89 |                            18.5 |         33,813 |
+|                      Jamaica |                         15.22 |                            6.34 |          6,031 |
+|                        Japan |                          3.38 |                           14.69 |         40,416 |
+|                       Jordan |                          2.47 |                            8.87 |          4,170 |
+|                   Kazakhstan |                         14.86 |                       `missing` |          9,457 |
+|                        Kenya |                         54.34 |                            6.85 |          1,960 |
+|                       Kuwait |                          1.78 |                       `missing` |         31,708 |
+|                   Kyrgyzstan |                         19.32 |                           12.09 |          1,422 |
+|                         Laos |                         61.44 |                       `missing` |          2,589 |
+|                       Latvia |                          7.29 |                           13.15 |         17,295 |
+|                      Lebanon |                         11.32 |                           10.85 |          8,906 |
+|                      Lesotho |                          44.3 |                           22.56 |          1,082 |
+|                      Liberia |                         42.62 |                       `missing` |            658 |
+|                        Libya |                         16.41 |                       `missing` |          9,963 |
+|                    Lithuania |                          6.44 |                           15.88 |         19,609 |
+|                   Luxembourg |                          0.68 |                            3.46 |        112,697 |
+|                        Macao |                           0.4 |                            1.62 |         81,883 |
+|                   Madagascar |                         64.12 |                       `missing` |            500 |
+|                       Malawi |                         76.36 |                       `missing` |            581 |
+|                     Malaysia |                         10.28 |                           17.79 |         10,920 |
+|                     Maldives |                          8.32 |                            9.72 |         11,740 |
+|                         Mali |                         62.44 |                            5.29 |            972 |
+|                        Malta |                          1.02 |                           11.06 |         32,422 |
+|                   Mauritania |                         30.83 |                            6.55 |          1,767 |
+|                    Mauritius |                          5.97 |                           12.73 |         11,568 |
+|                       Mexico |                         12.48 |                           16.85 |         10,370 |
+|                      Moldova |                         20.96 |                             7.1 |          4,405 |
+|                     Mongolia |                         25.32 |                            7.23 |          4,348 |
+|                   Montenegro |                          7.15 |                            5.97 |          8,749 |
+|                      Morocco |                         33.25 |                       `missing` |          3,508 |
+|                   Mozambique |                         70.22 |                       `missing` |            519 |
+|                      Myanmar |                         48.85 |                           10.35 |          1,426 |
+|                      Namibia |                         21.85 |                       `missing` |          4,732 |
+|                        Nepal |                         64.38 |                       `missing` |          1,203 |
+|                  Netherlands |                          2.08 |                            8.99 |         53,555 |
+|                New Caledonia |                          1.87 |                            2.54 |         33,411 |
+|                  New Zealand |                          5.84 |                            9.13 |         42,856 |
+|                    Nicaragua |                          30.6 |                       `missing` |          1,959 |
+|                        Niger |                         72.54 |                            6.42 |            562 |
+|                      Nigeria |                         34.97 |                           10.74 |          3,190 |
+|              North Macedonia |                         13.92 |                           19.91 |          6,719 |
+|                       Norway |                          2.04 |                            7.67 |         76,431 |
+|                         Oman |                          3.99 |                       `missing` |         19,180 |
+|                     Pakistan |                         36.92 |                           15.08 |          1,390 |
+|                       Panama |                         14.41 |                            7.54 |         16,478 |
+|             Papua New Guinea |                         56.15 |                       `missing` |          2,576 |
+|                     Paraguay |                         18.72 |                           10.43 |          5,821 |
+|                         Peru |                         27.37 |                             8.7 |          7,037 |
+|                  Philippines |                         22.86 |                            8.53 |          3,401 |
+|                       Poland |                          9.15 |                           20.52 |         15,875 |
+|                     Portugal |                           5.5 |                           17.03 |         23,343 |
+|                        Qatar |                          1.17 |                            7.38 |         66,841 |
+|                      Romania |                         21.24 |                           18.91 |         12,910 |
+|                       Russia |                          5.83 |                           14.17 |         11,448 |
+|                       Rwanda |                         62.29 |                            5.38 |            810 |
+|                        Samoa |                         30.21 |                       `missing` |          4,352 |
+|        Sao Tome and Principe |                         19.14 |                       `missing` |          1,935 |
+|                 Saudi Arabia |                          2.41 |                       `missing` |         29,567 |
+|                      Senegal |                          30.1 |                           12.86 |          1,431 |
+|                       Serbia |                         15.61 |                           18.68 |          7,756 |
+|                 Sierra Leone |                         54.49 |                       `missing` |            844 |
+|                    Singapore |                          0.03 |                            9.61 |         65,952 |
+|                     Slovakia |                          2.79 |                           24.61 |         19,406 |
+|                     Slovenia |                          4.28 |                            25.6 |         25,814 |
+|              Solomon Islands |                         37.26 |                       `missing` |          2,224 |
+|                      Somalia |                         80.28 |                           10.66 |            540 |
+|                 South Africa |                          5.28 |                           10.77 |          6,534 |
+|                  South Korea |                          5.14 |                           16.26 |         33,827 |
+|                        Spain |                          4.03 |                            12.4 |         29,787 |
+|                    Sri Lanka |                         24.98 |                           18.39 |          4,082 |
+|                        Sudan |                         38.37 |                       `missing` |            710 |
+|                     Suriname |                          8.08 |                       `missing` |          6,630 |
+|                       Sweden |                          1.69 |                           10.01 |         51,649 |
+|                  Switzerland |                          2.59 |                           12.77 |         84,122 |
+|                        Syria |                         10.13 |                       `missing` |          1,110 |
+|                   Tajikistan |                         44.72 |                       `missing` |            871 |
+|                     Tanzania |                         65.09 |                       `missing` |          1,063 |
+|                     Thailand |                         31.43 |                           16.28 |          7,606 |
+|                         Togo |                         32.38 |                            12.8 |            826 |
+|                        Tonga |                         19.37 |                       `missing` |          4,789 |
+|          Trinidad and Tobago |                          3.03 |                            9.08 |         17,213 |
+|                      Tunisia |                          13.8 |                           18.19 |          3,529 |
+|                       Turkey |                         18.11 |                           18.35 |          9,395 |
+|                 Turkmenistan |                         20.68 |                       `missing` |          5,998 |
+|                       Uganda |                         72.13 |                            3.81 |            822 |
+|                      Ukraine |                         13.82 |                           13.22 |          3,620 |
+|         United Arab Emirates |                          1.39 |                            9.22 |         45,939 |
+|               United Kingdom |                          1.05 |                            8.88 |         43,159 |
+|                United States |                          1.36 |                           10.42 |         64,746 |
+|                      Uruguay |                          8.41 |                            10.3 |         18,316 |
+|                   Uzbekistan |                         25.71 |                           11.91 |          2,041 |
+|                      Vanuatu |                         56.78 |                            4.02 |          3,207 |
+|                    Venezuela |                          7.86 |                       `missing` |          2,523 |
+|                      Vietnam |                         37.22 |                           20.23 |          3,441 |
+|                       Zambia |                         49.64 |                            4.43 |          1,259 |
+|                     Zimbabwe |                         66.19 |                            4.41 |          2,184 |
