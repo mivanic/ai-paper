@@ -12,7 +12,7 @@ We implement this scenario with several modalities. First, we consider two degre
 
 In all of the scenarios we assume that nominal wages remains fixed and, instead, clerical labor will exit/enter the labor force to maintian this wage. Note that in the standard GTAP model, full employment is assumed (and wages adjust)–which corresponds to our first assumption. To implement the second assumption, we swap the two in the closure statement such that employment adjusts while wages are fixed.
 
-To see the implications of taxation on AI's benefits, we also produce scenario where we allow AI to be adopted everywhere and where we apply a range of use taxes ranging from 0 to 100 percent. 
+To see the implications of taxation on AI's benefits, we also produce scenario where we allow AI to be adopted everywhere and where we apply a range of use taxes ranging from 0 to 120 percent. 
 
 ```{=html}
 <!-- ## Replacing professional staff with AI
