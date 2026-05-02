@@ -6,13 +6,47 @@ bibliography: references.bib
 
 We use a model that is based on the standard, comparative static GTAP model, as implemented by @ivanic2025. This model represents all key markets, i.e., production, input demand, factor incomes, consumption, trade and savings, in a global general equilibrium setting under the assumption of zero economic profits and constant returns to scale. Production is represented as a nested CES production fuction that combines factors into a value-added composite and intermediate inputs into an intermediate input composite at the bottom level. They are then combined into the final output at the top level.
 
-In the standard GTAP model value-added is strictly composed of productive factors, i.e., land, labor, capital and natural resources. There is no possibility to subsititue labor with a commodity, which makes it difficult to analyze a sceanario where computing services, i.e., AI, can directly replace labor in the production process. To allow for such substitution, we modify the model so that the total effective labor used in production by an industry is a summation of the actual labor used and any AI used as labor replacement.
-
-We use GTAP for this work as this model has been widely used to analyze numerous policies such as Farm to Fork [@beckman2021, @beckman2022], biofuels [@taheripour2010], and trade agreements [@beckman2023]. Given the importance of this model, research has also focused on enhancing or validating aspects of the model. @hertel2007 estimate Armington elasticities that are still used in the GTAP model.[^1] @beckman2011 validate the energy-based GTAP model by also examining the elasticities used in the model. Note that the energy-based GTAP model investigated in that work, moved energy to the value-added nest to allow the substitution of energy with capital.
+We use GTAP for this work as this model has been widely used to analyze numerous policies such as Farm to Fork [@beckman2021; @beckman2022], biofuels [@taheripour2010], and trade agreements [@beckman2023]. Given the importance of this model, research has also focused on enhancing or validating aspects of the model. @hertel2007 estimate Armington elasticities that are still used in the GTAP model.[^1] @beckman2011 validate the energy-based GTAP model by also examining the elasticities used in the model. Note that the energy-based GTAP model investigated in that work, moved energy to the value-added nest to allow the substitution of energy with capital.
 
 [^1]: @plevin2015 show that this elasticity is the most important standard parameter in the model when determining economic impacts across regions.
 
-## 2.1 Implemenation of additive combination of labor and AI using a CES production function
+In the standard GTAP model value-added is strictly composed of productive factors, i.e., land, labor, capital and natural resources. There is no possibility to subsititue labor with a commodity, which makes it difficult to analyze a sceanario where AI, which is a commodity produced by computing services, can directly replace labor in the production process. To allow for such substitution, we modify the model so that the total effective labor available for the production by an industry is a function of the actual human labor used and any AI used as labor replacement. This is shown in @fig-AI-GTAP.
+
+```{mermaid}
+%%| fig-cap: "Inroduction of AI in the production function"
+%%| label: fig-AI-GTAP
+%%| fig-width: 6.5
+flowchart TB
+  O[Output] --- VA[Value-added]
+  O --- I[Input mix]
+  VA --- LC[Clerical labor]
+  VA --- LO[Other labor]
+  VA --- K[Capital]
+  I --- CO[Other commodities]
+  I --- AI[AI]
+  LC --- HLC[Human clarical labor]
+  LC --- AILC[AI]
+
+style AI fill:pink
+style AILC fill:pink
+```
+
+There are many options how combining AI ($A$) and human labor ($L$) produced effective labor $L_E$ used by the industries. If we assume that AI may be used at various intensities to replace one unit of human labor, the relation may look like this:
+
+$$L_E = \psi A + L$$
+
+To use this relationship in the GTAP model, we approximate it by a CES production function:
+
+$$L_E = \gamma \left( \alpha_A A^\rho + \left(1-\alpha_A \right) L^\rho \right)^\frac{1}{\rho}$$ {#eq-labor-combination}
+
+where $\gamma = \frac{\psi+1}{1}$ and $\alpha_A = \frac{\psi+1}{\psi}$
+
+This more flexible functional form allows for a perfect additive relationship when $\rho=1$ (perfect substitution). It also allows us to set $\rho<1$ to simulate the siutation where AI and human labor cannot replace each other perfectly, requiring both in the proudction process. In this work we assume that the substitutability between AI and human labor is high, with the elastity of substitution equal to 20 ($\rho=0.95$). However, even with this high level of substitution, the model would never allow for a complete replacement of human labor with AI or vice versa.
+
+Finally, we require one more assumption in order to calibrate this function in the GTAP data which only contains vlaue flows. 
+To introduce the relationship presented in @eq-labor-combination, we calibrate our model by setting the domestic price of AI and labor to one, i.e., assuming $\phi=1$. 
+
+<!-- ## 2.1 Implemenation of additive combination of labor and AI using a CES production function
 
 Given that the GTAP model extensively uses CES functions to model most of its demand relationships (e.g., value-added components, inputs into the intermediate input bundle, or their sourcing from imports and domestic production, etc.), our implementation utilizes a CES production function as well to approximate the additive combination of human labor and AI.
 
@@ -55,22 +89,4 @@ with $\rho$ sufficiently close to one.
 In our implementation, we set $\rho=0.95$ which corresponds to $\sigma=20$:
 
 $$e = \frac{\psi+1}{1}\left(\frac{\psi}{\psi+1} a^{0.95}  +  \frac{1}{\psi+1} l^{0.95} \right)^\frac{1}{0.95}$$
-
-```{mermaid}
-%%| fig-cap: "Inroduction of AI in the production function"
-%%| label: fig-AI-GTAP
-%%| fig-width: 6.5
-flowchart TB
-  O[Output] --- VA[Value-added]
-  O --- I[Input mix]
-  VA --- LC[Clerical labor]
-  VA --- LO[Other labor]
-  VA --- K[Capital]
-  I --- CO[Other commodities]
-  I --- AI[AI]
-  LC --- HLC[Human clarical labor]
-  LC --- AILC[AI]
-
-style AI fill:pink
-style AILC fill:pink
-```
+ -->
