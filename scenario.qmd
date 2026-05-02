@@ -8,7 +8,11 @@ We are interested in exploring the implications of allowing AI, a service genera
 
 [^1]: @manning2026 note that clerical and administrative roles are most at risk. They are both considered clerical in GTAP.
 
-We implement this scenario with several modalities. First, we consider two degrees of global adoption of the AI labor replacement technology: (1) an adoption by the developed countries only and (2) a global adoption. The second modality relates to the supply of clerical labor during the proces of adopting AI to replace it; we assume that (1) the supply of clerical labor remains fixed and that wages will adjust, and, alternatively that (2) wages remains fixed and, instead, clerical labor will exit/enter the labor force to maintian this wage. Note that in the standard GTAP model, full employment is assumed (and wages adjust)–which corresponds to our first assumption. To implement the second assumption, we swap the two in the closure statement such that employment adjusts while wages are fixed.
+We implement this scenario with several modalities. First, we consider two degrees of global adoption of the AI labor replacement technology: (1) an adoption by the developed countries only and (2) a global adoption. The second modality relates to the supply of clerical labor during the proces of adopting AI to replace it; for each scenario we then assume that (1) no policy action will be taken and that (2) a 100 percent tax on AI use in replacing clerical labor is adopted.
+
+In all of the scenarios we assume that nominal wages remains fixed and, instead, clerical labor will exit/enter the labor force to maintian this wage. Note that in the standard GTAP model, full employment is assumed (and wages adjust)–which corresponds to our first assumption. To implement the second assumption, we swap the two in the closure statement such that employment adjusts while wages are fixed.
+
+To see the implications of taxation on AI's benefits, we also produce scenario where we allow AI to be adopted everywhere and where we apply a range of use taxes ranging from 0 to 100 percent. 
 
 ```{=html}
 <!-- ## Replacing professional staff with AI

@@ -1,6 +1,5 @@
 .Rproj.user
 *.pdf
-*.har
 scenario_files
 *.Rproj
 .Rhistory
@@ -15,3 +14,4 @@ results_files/*
 *.toml
 Data/*
 .positai
+/*.har
