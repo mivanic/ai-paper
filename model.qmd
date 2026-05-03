@@ -6,7 +6,7 @@ bibliography: references.bib
 
 We use a model that is based on the standard, comparative static GTAP model, as implemented by @ivanic2025. This model represents all key markets, i.e., production, input demand, factor incomes, consumption, trade and savings, in a global general equilibrium setting under the assumption of zero economic profits and constant returns to scale. Production is represented as a nested CES production fuction that combines factors into a value-added composite and intermediate inputs into an intermediate input composite at the bottom level. They are then combined into the final output at the top level.
 
-We use GTAP for this work as this model has been widely used to analyze numerous policies such as Farm to Fork [@beckman2021; @beckman2022], biofuels [@taheripour2010], and trade agreements [@beckman2023]. Given the importance of this model, research has also focused on enhancing or validating aspects of the model. @hertel2007 estimate Armington elasticities that are still used in the GTAP model.[^1] @beckman2011 validate the energy-based GTAP model by also examining the elasticities used in the model. Note that the energy-based GTAP model investigated in that work, moved energy to the value-added nest to allow the substitution of energy with capital.
+We use GTAP for this work as this model has been widely used to analyze numerous policies such as Farm to Fork [@beckman2021; @beckman2022], biofuels [@taheripour2010], and trade agreements [@beckman2023]. Given the importance of this model, research has also focused on enhancing or validating aspects of the model. @hertel2007 estimate Armington elasticities that are still used in the GTAP model.[^1] @beckman2011 validate the energy-based GTAP model by also examining the elasticities used in the model. Note that the energy-based GTAP model investigated in that work, moved energy to the value-added nest to allow the substitution of energy with capital. In addition to that model which moved sectors out of the intermediate input nest into value-added, @bartelings2016 move fertilizers from an intermediate input to substitute with land in the value-added nest. A main reason for the need to move sectors is to make the model more representative of the real-world, since the standard GTAP model has no subtitutability at the intermediate input and value-added nest [@ivanic2023].
 
 [^1]: @plevin2015 show that this elasticity is the most important standard parameter in the model when determining economic impacts across regions.
 
@@ -31,7 +31,7 @@ style AI fill:pink
 style AILC fill:pink
 ```
 
-There are many options how combining AI ($A$) and human labor ($L$) produced effective labor $L_E$ used by the industries. If we assume that AI may be used at various intensities to replace one unit of human labor, the relation may look like this:
+There are many options to combine AI ($A$) and human labor ($L$) to arrive at effective labor $L_E$ used by industries. If we assume that AI may be used at various intensities to replace one unit of human labor, the relation may look like this:
 
 $$L_E = \psi A + L$$
 
@@ -41,11 +41,13 @@ $$L_E = \gamma \left( \alpha_A A^\rho + \left(1-\alpha_A \right) L^\rho \right)^
 
 where $\gamma = \frac{\psi+1}{1}$ and $\alpha_A = \frac{\psi+1}{\psi}$
 
-This more flexible functional form allows for a perfect additive relationship when $\rho=1$ (perfect substitution). It also allows us to set $\rho<1$ to simulate the siutation where AI and human labor cannot replace each other perfectly, requiring both in the proudction process. In this work we assume that the substitutability between AI and human labor is high, with the elastity of substitution equal to 20 ($\rho=0.95$). However, even with this high level of substitution, the model would never allow for a complete replacement of human labor with AI or vice versa.
+This more flexible functional form allows for a perfect additive relationship when $\rho=1$ (perfect substitution). It also allows us to set $\rho<1$ to simulate the situation where AI and human labor cannot replace each other perfectly, requiring both in the production process. In this work we assume that the substitutability between AI and human labor is high, with the elasticity of substitution equal to 20 ($\rho=0.95$). However, even with this high level of substitution, the model would never allow for a complete replacement of human labor with AI or vice versa.
 
-Finally, we require one more assumption in order to calibrate this function in the GTAP data which only contains vlaue flows. 
-To introduce the relationship presented in @eq-labor-combination, we calibrate our model by setting the domestic price of AI and labor to one, i.e., assuming $\phi=1$. 
+Finally, we require one more assumption in order to calibrate this function in the GTAP data which only contains value flows. To introduce the relationship presented in @eq-labor-combination, we calibrate our model by setting the domestic price of AI and labor to one, i.e., assuming $\phi=1$.
 
+Much like our building of the model, other AI papers have had to make similar assumptions. Focusing on @acemoglu2025, he assumes that 19.9 percent of U.S. labor tasks are exposed to AI, 23 percent of computer tasks can be profitably performed by AI, and the average labor cost savings to be 27 percent–which, together, imply an average cost savings of 15.4 percent. One thing not mentioned in his work is the potential costs coming from AI, such as energy needs. Given that our AI sector comes with costs to produce AI (as given in input-output models), we are able to account for the costs and the benefits of AI.
+
+```{=html}
 <!-- ## 2.1 Implemenation of additive combination of labor and AI using a CES production function
 
 Given that the GTAP model extensively uses CES functions to model most of its demand relationships (e.g., value-added components, inputs into the intermediate input bundle, or their sourcing from imports and domestic production, etc.), our implementation utilizes a CES production function as well to approximate the additive combination of human labor and AI.
@@ -90,3 +92,4 @@ In our implementation, we set $\rho=0.95$ which corresponds to $\sigma=20$:
 
 $$e = \frac{\psi+1}{1}\left(\frac{\psi}{\psi+1} a^{0.95}  +  \frac{1}{\psi+1} l^{0.95} \right)^\frac{1}{0.95}$$
  -->
+```
