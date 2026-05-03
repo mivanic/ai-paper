@@ -23,12 +23,18 @@ flowchart TB
   VA --- LO[Other labor]
   VA --- K[Capital]
   I --- CO[Other commodities]
-  I --- AI[AI]
+  I --- AI[Computing services]
   LC --- HLC[Human clarical labor]
   LC --- AILC[AI]
+  AILC-.-CS
+  AI-.-CS
+subgraph CS [Production of computing services]
+
+end
 
 style AI fill:pink
 style AILC fill:pink
+style CS fill:lightgreen
 ```
 
 There are many options to combine AI ($A$) and human labor ($L$) to arrive at effective labor $L_E$ used by industries. If we assume that AI may be used at various intensities to replace one unit of human labor, the relation may look like this:
