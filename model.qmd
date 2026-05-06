@@ -13,7 +13,7 @@ We use GTAP for this work as this model has been widely used to analyze numerous
 In the standard GTAP model value-added is strictly composed of productive factors, i.e., land, labor, capital and natural resources. There is no possibility to subsititue labor with a commodity, which makes it difficult to analyze a sceanario where AI, which is a commodity produced by computing services, can directly replace labor in the production process. To allow for such substitution, we modify the model so that the total effective labor available for the production by an industry is a function of the actual human labor used and any AI used as labor replacement. This is shown in @fig-AI-GTAP.
 
 ```{mermaid}
-%%| fig-cap: "Inroduction of AI in the production function"
+%%| fig-cap: "Inroduction of AI in the production function (the green nodes show the production of computing service activity) whose output can be used as ither AI or computing services (in pink)"
 %%| label: fig-AI-GTAP
 %%| fig-width: 6.5
 flowchart TB

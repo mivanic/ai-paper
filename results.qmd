@@ -179,3 +179,7 @@ We modify the model to allow for clerical labor to be substituted with artificia
 
 
 ![Global EV (millions of USD) as a result of implementing a technology that allows for replacement of clerical labor with AI on par for three labor assumptions for various global AI use tax rates](assets/figure-tax-ev.png){#fig-equivalent-variation-tax}
+
+![Value of AI use by region and scenario](assets/figure-ai-use.png){#fig-ai-use}
+
+![Value of computing services as input use by region and scenario](assets/figure-computing-services-use.png){#fig-computing-services-use}
