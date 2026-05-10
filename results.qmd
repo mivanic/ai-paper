@@ -22,29 +22,8 @@ We modify the model to allow for clerical labor to be substituted with artificia
 
 \normalsize -->
 
-\scriptsize
 
-{{< include assets/table-scenario-devonly_unemployment-real-factor-prices.txt >}}
 
-:   Real factor price changes as a result of all developed countries implementing a technology to substitute clerical labor on par with unemployment assumption for all labor (labor quantity adjust) {#tbl-scenario1a-real-factor-prices}
-
-\normalsize
-
-\scriptsize
-
-{{< include assets/table-scenario-devonly_unemployment-real-commodity-prices.txt >}}
-
-:   Real consumer price changes as a result of all developed countries implementing a technology to substitute clerical labor on par with unemployment assumption for all labor (labor quantity adjust) {#tbl-scenario1a-real-commodity-prices}
-
-\normalsize
-
-\scriptsize
-
-{{< include assets/table-scenario-devonly_unemployment-commodity-output.txt >}}
-
-:   Commodity output as a result of all developed countries implementing a technology to substitute clerical labor on par with unemployment assumption for all labor (labor quantity adjust) {#tbl-scenario1a-real-commodity-prices}
-
-\normalsize
 
 <!-- \scriptsize
 
@@ -110,26 +89,8 @@ We modify the model to allow for clerical labor to be substituted with artificia
 
 \normalsize -->
 
-\scriptsize
-{{< include assets/table-scenario-devonly_unemployment_tax-real-factor-prices.txt >}}
-: Real factor price changes as a result of all developed countries implementing a technology to substitute clerical labor on par with unemployment assumption for all labor (labor quantity adjust)  + 100% tax on AI
-{#tbl-scenario1a-real-factor-prices}
 
-\normalsize
 
-\scriptsize
-{{< include assets/table-scenario-devonly_unemployment_tax-real-commodity-prices.txt >}}
-: Real consumer price changes as a result of all developed countries implementing a technology to substitute clerical labor on par with unemployment assumption for all labor (labor quantity adjust) + 100% tax on AI
-{#tbl-scenario1a-real-commodity-prices}
-
-\normalsize
-
-\scriptsize
-{{< include assets/table-scenario-devonly_unemployment_tax-commodity-output.txt >}}
-: Commodity output as a result of all developed countries implementing a technology to substitute clerical labor on par with unemployment assumption for all labor (labor quantity adjust) + 100% tax on AI
-{#tbl-scenario1a-real-commodity-prices}
-
-\normalsize
 
 <!-- 
 \scriptsize
