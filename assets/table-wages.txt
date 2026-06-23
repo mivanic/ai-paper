@@ -1,0 +1,18 @@
+| Region       | Wages |
+|--------------|-------|
+|    Argentina |  0.35 |
+|    Australia |  0.78 |
+|       Brazil |  0.14 |
+|       Canada |  0.75 |
+|        China |  0.17 |
+|           EU |  0.29 |
+|        India |  0.03 |
+|        Japan |  0.32 |
+|       Mexico |  0.05 |
+|  New Zealand |   0.5 |
+|          ROW |  0.06 |
+|       Russia |  0.03 |
+| South Africa |  0.11 |
+|  South Korea |   0.6 |
+|           UK |  0.41 |
+|          USA |   1.0 |

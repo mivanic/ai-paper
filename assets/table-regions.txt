@@ -1,0 +1,18 @@
+| Region       | GTAPRegions                                                                                                                           |
+|--------------|---------------------------------------------------------------------------------------------------------------------------------------|
+|    Argentina |                                                                                                                                   arg |
+|    Australia |                                                                                                                                   aus |
+|       Brazil |                                                                                                                                   bra |
+|       Canada |                                                                                                                                   can |
+|        China |                                                                                                                              chn, hkg |
+|           EU | aut, bel, bgr, hrv, cyp, cze, dnk, est, fin, fra, deu, grc, hun, irl, ita, lva, ltu, lux, mlt, nld, pol, prt, rou, svk, svn, esp, swe |
+|        India |                                                                                                                                   ind |
+|        Japan |                                                                                                                                   jpn |
+|       Mexico |                                                                                                                                   mex |
+|  New Zealand |                                                                                                                                   nzl |
+|          ROW |                                                                                                                     (rest of regions) |
+|       Russia |                                                                                                                                   rus |
+| South Africa |                                                                                                                                   zaf |
+|  South Korea |                                                                                                                                   kor |
+|           UK |                                                                                                                                   gbr |
+|          USA |                                                                                                                                   usa |

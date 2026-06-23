@@ -1,0 +1,9 @@
+| Aggregate commodity | GTAP commodities                                                                              |
+|---------------------|-----------------------------------------------------------------------------------------------|
+|                  ai |                                                                                           cmn |
+|             animals |                                                                            ctl, oap, rmk, wol |
+|               crops |                                                        pdr, wht, gro, v_f, osd, c_b, pfb, ocr |
+|             extract |                                                                  frs, fsh, coa, oil, gas, oxt |
+|                food |                                                        cmt, omt, vol, mil, pcr, sgr, ofd, b_t |
+|               manuf | tex, wap, lea, lum, ppp, p_c, chm, bph, rpp, nmm, i_s, nfm, fmp, ele, eeq, ome, mvh, otn, omf |
+|               svces | ely, gdt, wtr, cns, trd, afs, otp, wtp, atp, whs, ofi, ins, rsa, obs, ros, osg, edu, hht, dwe |

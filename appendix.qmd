@@ -7,6 +7,8 @@
 \setcounter{figure}{0}
 \renewcommand{\thefigure}{A\arabic{figure}}
 
+\newpage
+
 # Appendix {.appendix}
 
 \scriptsize

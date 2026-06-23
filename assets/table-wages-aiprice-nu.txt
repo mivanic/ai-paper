@@ -1,0 +1,6 @@
+| Region      | Clerical wages | AI price |
+|-------------|----------------|----------|
+|   Australia |        -14.1 % |   -0.5 % |
+| South Korea |         -4.9 % |   -0.2 % |
+|      Canada |        -19.6 % |   -0.4 % |
+|         USA |        -36.7 % |   -4.4 % |

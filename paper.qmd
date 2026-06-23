@@ -2,6 +2,7 @@
 title: "Rise of the Machines: A Computable General Equilbrium Analysis of the Sectoral Level Impacts of Artificial Intelligence (AI) aross the Global Economy"
 subtitle: "Note: No AI was used to write this paper"
 format: pdf
+number-sections: true
 bibliography: references.bib
 author:
     - Maros Ivanic

@@ -1,3 +1,26 @@
-# 4. Data
+# Data
 
-We use GTAP datbase version 12 with the reference year 2023 aggregated to 16 regions, seven commodities and seven factors. The regions are: Australia, New Zealand, China+Hong Kong, Japan, India, Canada, USA, Mexico, Argentina, Malaysia, South Korea, Brazil, EU, UK, Russia, South Africa and the rest of the world (ROW). The commodities are: crops, animals, extract, food, manuf, svces and AI (communications and information sector). The factors include land, tech_aspros, clerks, service_shop, off_mgr_pros, ag_othlowsk, capital, and natlres.
+We use GTAP datbase version 12 with the reference year 2023 aggregated to 16 regions, seven commodities and seven factors. The regions are: Australia, New Zealand, China+Hong Kong, Japan, India, Canada, USA, Mexico, Argentina, Malaysia, South Korea, Brazil, EU, UK, Russia, South Africa and the rest of the world (ROW) (See @tbl-regions for details). The commodities are: crops, animals, extract, food, manuf, svces and AI (communications and information sector) (See @tbl-commodities for details). The factors include alll seven GTAP factors, i.e., land, technical and other professionals (tech_aspros), clerks, service staff (service_shop), officers, managers and professionals (off_mgr_pros), agricultural and other low skill labor (ag_othlowsk), capital, and  natural resources (natlres).
+
+\scriptsize
+{{< include assets/table-regions.txt >}}
+: Regional aggregation
+{#tbl-regions}
+
+\normalsize
+
+
+\scriptsize
+{{< include assets/table-commodities.txt >}}
+: Commodity aggregation
+{#tbl-commodities}
+
+\normalsize
+
+
+\scriptsize
+{{< include assets/table-wages.txt >}}
+: Relative per-capita GDPs (assumed to represent relative clerical wages)
+{#tbl-wages}
+
+\normalsize
