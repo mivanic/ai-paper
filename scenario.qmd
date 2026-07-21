@@ -7,6 +7,13 @@ We are interested in exploring the implications of allowing AI, a service genera
 
 We calibrate our model by setting the domestic price of AI and labor to one in the country with the highest clerical wages (the United States); we then set the relative wages of clerical labor in other regions to equal the relative total clerk wages per capita of each country/region. Furthermore, we assume $\psi=1$, i.e., one unit of labor can be substituted by one unit of AI [@eq-labor-combination]. For the relative wages assumed in the scenarios see @tbl-wages.
 
+\scriptsize
+{{< include assets/table-wages.txt >}}
+: Relative per-capita GDPs (assumed to represent relative clerical wages)
+{#tbl-wages}
+
+\normalsize
+
 Much like our building of the model, other AI papers have had to make similar assumptions. Focusing on @acemoglu2025, he assumes that 19.9 percent of U.S. labor tasks are exposed to AI, 23 percent of computer tasks can be profitably performed by AI, and the average labor cost savings to be 27 percent–which, together, imply an average cost savings of 15.4 percent. One thing not mentioned in his work is the potential costs coming from AI, such as energy needs. Given that our AI sector comes with costs to produce AI (as given in input-output models), we are able to account for the costs and the benefits of AI.
 
 Because of a wide range of clerical wages across the world and a global price for tradeable AI, it is likely that adoption of AI may vary across countries. As we explain earlier, we introduce a different production function for clerical labor that allows the combination of human labor and AI. However, changing production is likely to be costly; to account for this in our model, we assume that if a country or a region's use of AI falls below a small threshold (1 percent of total labor), then the country would not adopt AI at all.

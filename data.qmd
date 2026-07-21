@@ -18,9 +18,3 @@ We use GTAP datbase version 12 with the reference year 2023 aggregated to 16 reg
 \normalsize
 
 
-\scriptsize
-{{< include assets/table-wages.txt >}}
-: Relative per-capita GDPs (assumed to represent relative clerical wages)
-{#tbl-wages}
-
-\normalsize
