@@ -1,5 +1,5 @@
 ---
-title: "highlights"
+title: "Highlights"
 format: html
 ---
 
