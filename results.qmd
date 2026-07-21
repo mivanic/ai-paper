@@ -4,7 +4,7 @@
 
 The adoption rate of AI to replace clerical labor varies across regions and sectors, and depends heavily on the assumption of full employment. In both scenarios, we only observe four regions that choose to adopt AI, with the highest clerical wages---Australia, South Korea, Canada and the USA (@tbl-adoption). This reflects the fact that with the same global price of AI assumed to equal the cost of clerical labor in the United States, it makes less sense to use it to replace much cheaper labor in most other countries. In the case of full employment, when labor does not exit the labor market but instead the wage adjusts, the adoption is lower because lower wages make AI less cost effective.  We also note that AI's adoption varies by sector as well, with agricultural sectors (crops and animals) having the lowest adoption rates.
 
-As a result of these market forces, we observe the highest adoption rates in the case of United States in the case of fixed wages scenario (@tbl-adoption-un), where the adoption of AI does not drive the cost of clerical labor down, resulting in full adoption of AI in all sectors. In case of Canada with slightly lower initial clerical wages, the adoption rate is about 96 percent in all sectors except crops (86%) and animals (92%). The adoption rates in Australia are noticeable lower (78% in industry, about 50% in agriculture). Finally, in the case of South Korea, the adoption rate is only 12% across all sectors.
+As a result of these market forces, we observe the highest adoption rates in the case of United States in the case of the fixed wages scenario (@tbl-adoption-un), where the adoption of AI does not drive the cost of clerical labor down, resulting in full adoption of AI in all sectors. Canada has slightly lower initial clerical wages, their adoption rate is about 96 percent in all sectors except crops (86%) and animals (92%). The adoption rates in Australia are noticeable lower (78% in industry, about 50% in agriculture). Finally, in the case of South Korea, the adoption rate is only 12% across all sectors.
 
 When we assume that AI's adoption does not drive labor out of the labor market but instead it lowers wages, the adoption rates of AI drop significantly in all countries that adopt it and in all sectors, as it becomes less cost effective to displace much cheaper labor (@tbl-adoption-nu). The adoption rates remain highest in the USA where they drop from 100 to 45 percent (industry) and about 20 percent in agriculture. The steepest drop in adoption is observed in Australia, where the adoption rates drops to 18 percent in industries and about 6 percent in agriculture.
 
@@ -12,14 +12,14 @@ When we assume that AI's adoption does not drive labor out of the labor market b
 
 \scriptsize 
 {{< include assets/table-adoption-nu.txt >}}
-: No unemployment {#tbl-adoption-nu}
+: Full employment {#tbl-adoption-nu}
 
 \normalsize
 
 \scriptsize 
 
 {{< include assets/table-adoption-un.txt >}}
-: Unemployment {#tbl-adoption-un}
+: Unemployment-fixed wages {#tbl-adoption-un}
 
 \normalsize
 
@@ -75,7 +75,7 @@ Welfare impacts of the adoption of AI on the adopting countries, the rest of the
 
 ## How does a tax on AI use affect the adoption?
 
-Having described two scenarios of global adoption of AI to replace clerical labor, we now consider the implication of taxing of computing service when used as a technology used by firms to replace labor. We consider different rates of tax ranging from 0 to 100 percent.  In @fig-equivalent-variation-tax we show the impact of the tax on global welfare. The figure suggests that with a tax rate of 95% all adoption of AI ceases. The exact impact of the tax on AI adoption and welfare depends on the whether the displaced clerical labor stays in the market; in this case, increasing the tax rate on AI from 0 to 100 percent would almost linearly reduce its benefits to the global economy. On the other hand, if the clerical labor exists the labor market, a tax rate below 35 percent would have only a small impact on the associated welfare loss; to prevent a substantial portion of such a loss would require a tax rate of 50% or more.
+Having described two scenarios of global adoption of AI to replace clerical labor, we now consider the implication of taxing computing service when when firms use it to replace labor. We consider different rates of tax ranging from 0 to 100 percent.  In @fig-equivalent-variation-tax we show the impact of the tax on global welfare. The figure suggests that with a tax rate of 95% all adoption of AI ceases. The exact impact of the tax on AI adoption and welfare depends on the whether the displaced clerical labor stays in the market; in this case, increasing the tax rate on AI from 0 to 100 percent would almost linearly reduce its benefits to the global economy. On the other hand, if clerical labor exits the labor market, a tax rate below 35 percent would have only a small impact on the associated welfare loss; to prevent a substantial portion of such a loss would require a tax rate of 50% or more.
 
 
 
