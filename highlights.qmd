@@ -1,7 +1,4 @@
----
-title: "Highlights"
-format: html
----
+# Highlights
 
 We operationalize AI in a widely used CGE model by allowing AI to substitute for clerical labor. 
 
