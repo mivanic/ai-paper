@@ -1,5 +1,5 @@
 ---
-title: "Rise of the Machines: A Computable General Equilbrium Analysis of the Sectoral Level Impacts of Artificial Intelligence (AI) aross the Global Economy"
+title: "{{< var title >}}"
 subtitle: "Note: No AI was used to write this paper"
 format: pdf
 number-sections: true
@@ -7,15 +7,13 @@ bibliography: references.bib
 author:
     - Maros Ivanic
     - Jayson Beckman
-abstract : "There is no bigger topic in economics right now than the potential impacts from Artificial Intelligence (AI). And there no greater need in economic modeling than to operationalize AI within economic frameworks. This paper incorporates AI in a computable general equilibrium model by allowing the possibility to substitute labor for AI. Results indicate that the welfare impact of AI adoption under our assumptions of simple labor substitution depend on whether or not the displaced workers exit the market---resulting in a loss of productive factor and a weflare loss---or whether the workers remain in the market at lower wages resulting in an increase in labor supply---resulting in welfare gain. We also note that the impact of a tax on AI would largely depend on which scenario plays out; in the case of labor force dwindling, a tax of over 50 percent would be required to cause a substantial reversal of the impacts."
+abstract : "There is no bigger topic in economics right now than the potential impacts from Artificial Intelligence (AI). And there no greater need in economic modeling than to operationalize AI within economic frameworks. This paper incorporates AI in a computable general equilibrium model by allowing the possibility to substitute labor for AI. Results indicate that the welfare impact of AI adoption under our assumptions of simple labor substitution depend on whether or not the displaced workers exit the market---resulting in a loss of productive factor and a welfare loss---or whether the workers remain in the market at lower wages resulting in an increase in labor supply---resulting in welfare gain. We also note that the impact of a tax on AI would largely depend on which scenario plays out; in the case of labor force dwindling, a tax of over 50 percent would be required to cause a substantial reversal of the impacts."
 
 keywords: AI, CGE, labor, welfare
 crossref:
   appendix-title: "App."
   appendix-delim: ":" 
 ---
-
-{{< include highlights.qmd >}}
 
 {{< include introduction.qmd >}}
 
