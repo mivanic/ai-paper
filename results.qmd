@@ -45,18 +45,18 @@ Even though the impacts on factor returns and consumer prices are mixed, the imp
 
 \scriptsize 
 {{< include assets/table-marketprices-nu.txt >}}
-: No unemployment {#tbl-marketprices-nu}
+: No unemployment assumption {#tbl-marketprices-nu}
 
 \normalsize
 
 \scriptsize 
 
 {{< include assets/table-marketprices-un.txt >}}
-: Unemployment {#tbl-marketprices-un}
+: Unemployment assumption {#tbl-marketprices-un}
 
 \normalsize
 
-Impact of the adoption of AI on factor returns and consumer prices (percent)
+Impact of the adoption of AI on factor returns, consumer prices (CPI) and welfare (EV) (percent)
 :::
 
 
@@ -69,6 +69,18 @@ Having observed that the sign of the welfare change in the countries that adopt 
 ![Unemployment scenario](assets/figure-ev-unemployemt.png){#fig-welfare-world-unemployment}
 
 ![No unemployment scenario](assets/figure-ev-nounemployemt.png){#fig-welfare-world-nounemployment}
+
+Welfare impacts of the adoption of AI on the adopting countries, the rest of the countries, and the world (in billions of US dollars)
+:::
+
+To see specifically the impact of each country adopting AI to replace clerical labor on each country's welfare, we perform a decomposition of the welfare results with respect to each country's contribution.^[We perform the decomposition by running the entire simulation sequentially, adding each country's shocks by sector and recording the impact of each additional shock on each country's welfare.] We show the results in @fig-welfare-world-dec. Clearly, the vast majority of welfare impacts, whether positive or negative, are caused by the adoption of AI in the United States. Even though the impact of the US' own adoption dominates in affecting other countries' welfare, we note that in the scenario allowing for unemployment, Australia's, South Korea's and Canada's own negative impacts dominate their total welfare change. In the case of no unemployment scenario, however, the positive impact of the US adoption generally dominates, with the exception fo South Korea whose own impact drives its overall welfare impact negative.
+
+
+::: {#fig-welfare-world-dec layout-ncol=2}
+
+![Unemployment scenario](assets/ev-dec-world_unemployment.png){#fig-welfare-dec-world-unemployment}
+
+![No unemployment scenario](assets/ev-dec-world_nounemployment.png){#fig-welfare-dec-world-nounemployment}
 
 Welfare impacts of the adoption of AI on the adopting countries, the rest of the countries, and the world (in billions of US dollars)
 :::
