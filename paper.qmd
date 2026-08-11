@@ -1,15 +1,44 @@
 ---
 title: "{{< var title >}}"
 subtitle: "Note: No AI was used to write this paper"
-format: pdf
+format: 
+  elsevier-pdf:
+    keep-tex: true 
+    journal: 
+      name: Economic Modelling
+      formatting: doubleblind
+      cite-style: authoryear
+      highlights:
+        - The model (GTAP), expressed in levels, allows analysis of binary technology adoption
+        - AI will likely be used where clerical wages are highest due to costs
+        - Welfare impacts depend on whether displaced labor stays in the market with lower wages
+        - The rest of the world that does not implement technologies is expected to benefit
 number-sections: true
 bibliography: references.bib
 author:
-    - Maros Ivanic
-    - Jayson Beckman
+    - name: Maros Ivanic
+      email: ivanic@gmail.com
+      corresponding: true
+      affiliations:
+        - name: Independent researcher
+          address: 7841 Greeley Boulevard
+          city: Springfield, VA 22152
+          country: USA
+          note: Corresponding author
+    - name: Jayson Beckman
+      email: jbeckman12@unl.edu
+      affiliations:
+        - name: University of Nebraska-Lincoln
+          department: Department of Agricultural Economics
+          address: 102 Filley Hall
+          city: Lincoln, NE 68583
+          country: USA
 abstract : "There is no bigger topic in economics right now than the potential impacts from Artificial Intelligence (AI). And there no greater need in economic modeling than to operationalize AI within economic frameworks. This paper incorporates AI in a computable general equilibrium model by allowing the possibility to substitute labor for AI. Results indicate that the welfare impact of AI adoption under our assumptions of simple labor substitution depend on whether or not the displaced workers exit the market---resulting in a loss of productive factor and a welfare loss---or whether the workers remain in the market at lower wages resulting in an increase in labor supply---resulting in welfare gain. We also note that the impact of a tax on AI would largely depend on which scenario plays out; in the case of labor force dwindling, a tax of over 50 percent would be required to cause a substantial reversal of the impacts."
-
-keywords: AI, CGE, labor, welfare
+keywords: 
+  - AI
+  - CGE
+  - labor
+  - welfare
 crossref:
   appendix-title: "App."
   appendix-delim: ":" 

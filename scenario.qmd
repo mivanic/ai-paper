@@ -9,7 +9,7 @@ We calibrate our model by setting the domestic price of AI and labor to one in t
 
 \scriptsize
 {{< include assets/table-wages.txt >}}
-: Relative per-capita GDPs (assumed to represent relative clerical wages)
+: Relative per-capita GDPs (assumed to represent relative clerical wages)^[Source: the GTAP database, version 12]
 {#tbl-wages}
 
 \normalsize

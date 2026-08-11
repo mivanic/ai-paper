@@ -1,0 +1,67 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: .\manuscript.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+The style file: elsarticle-harv.bst
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+Database file #1: references.bib
+Name 1 in "UNCTAD," has a comma at the end for entry unctad2025
+while executing---line 1485 of file elsarticle-harv.bst
+Name 1 in "UNCTAD," has a comma at the end for entry unctad2025
+while executing---line 1485 of file elsarticle-harv.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Warning--empty journal in acemoglu
+Warning--missing institution in autor2025
+Warning--empty booktitle in bartelings2016
+Warning--empty pages in bartelings2016
+Warning--missing institution in hampole2025
+Warning--missing institution in manning2026
+Warning--empty journal in mills2025
+Name 1 in "UNCTAD," has a comma at the end for entry unctad2025
+while executing---line 1576 of file elsarticle-harv.bst
+Name 1 in "UNCTAD," has a comma at the end for entry unctad2025
+while executing---line 1576 of file elsarticle-harv.bst
+Warning--empty journal in unctad2025
+Warning--empty journal in weinstock
+You've used 24 entries,
+            2990 wiz_defined-function locations,
+            800 strings with 9450 characters,
+and the built_in function-call counts, 15066 in all, are:
+= -- 1228
+> -- 504
+< -- 13
++ -- 207
+- -- 171
+* -- 1628
+:= -- 2211
+add.period$ -- 83
+call.type$ -- 24
+change.case$ -- 175
+chr.to.int$ -- 24
+cite$ -- 33
+duplicate$ -- 1136
+empty$ -- 1120
+format.name$ -- 237
+if$ -- 2816
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 216
+newline$ -- 146
+num.names$ -- 96
+pop$ -- 393
+preamble$ -- 1
+purify$ -- 153
+quote$ -- 0
+skip$ -- 347
+stack$ -- 0
+substring$ -- 620
+swap$ -- 781
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 210
+warning$ -- 9
+while$ -- 98
+width$ -- 0
+write$ -- 384
+(There were 4 error messages)

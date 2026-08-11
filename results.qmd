@@ -12,14 +12,14 @@ When we assume that AI's adoption does not drive labor out of the labor market b
 
 \scriptsize 
 {{< include assets/table-adoption-nu.txt >}}
-: Full employment {#tbl-adoption-nu}
+: No employment assumption {#tbl-adoption-nu}
 
 \normalsize
 
 \scriptsize 
 
 {{< include assets/table-adoption-un.txt >}}
-: Unemployment-fixed wages {#tbl-adoption-un}
+: Unemployment assumption {#tbl-adoption-un}
 
 \normalsize
 
@@ -66,9 +66,9 @@ Having observed that the sign of the welfare change in the countries that adopt 
 
 ::: {#fig-welfare-world layout-ncol=2}
 
-![Unemployment scenario](assets/figure-ev-unemployemt.png){#fig-welfare-world-unemployment}
+![Unemployment assumption](assets/figure-ev-unemployemt.png){#fig-welfare-world-unemployment}
 
-![No unemployment scenario](assets/figure-ev-nounemployemt.png){#fig-welfare-world-nounemployment}
+![No unemployment assumption](assets/figure-ev-nounemployemt.png){#fig-welfare-world-nounemployment}
 
 Welfare impacts of the adoption of AI on the adopting countries, the rest of the countries, and the world (in billions of US dollars)
 :::
@@ -78,9 +78,9 @@ To see specifically the impact of each country adopting AI to replace clerical l
 
 ::: {#fig-welfare-world-dec layout-ncol=2}
 
-![Unemployment scenario](assets/ev-dec-world_unemployment.png){#fig-welfare-dec-world-unemployment}
+![Unemployment assumption](assets/ev-dec-world_unemployment.png){#fig-welfare-dec-world-unemployment}
 
-![No unemployment scenario](assets/ev-dec-world_nounemployment.png){#fig-welfare-dec-world-nounemployment}
+![No unemployment assumption](assets/ev-dec-world_nounemployment.png){#fig-welfare-dec-world-nounemployment}
 
 Welfare impacts of the adoption of AI on the adopting countries, the rest of the countries, and the world (in billions of US dollars)
 :::
