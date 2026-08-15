@@ -104,7 +104,7 @@
 
  
 \usepackage[]{natbib}
-\bibliographystyle{elsarticle-harv}
+%\bibliographystyle{elsarticle-harv}
 
 
 \makeatletter
@@ -179,15 +179,15 @@ impacts from Artificial Intelligence (AI). And there no greater need in
 economic modeling than to operationalize AI within economic frameworks.
 This paper incorporates AI in a computable general equilibrium model by
 allowing the possibility to substitute labor for AI. Results indicate
-that the welfare impact of AI adoption under our assumptions of simple
-labor substitution depend on whether or not the displaced workers exit
-the market---resulting in a loss of productive factor and a welfare
+that the welfare impact of AI adoption is likely to be large but its
+sign depends on whether or not the displaced workers exit the
+market---resulting in a loss of productive factor and a welfare
 loss---or whether the workers remain in the market at lower wages
 resulting in an increase in labor supply---resulting in welfare gain. We
 also note that the impact of a tax on AI would largely depend on which
 scenario plays out; in the case of labor force dwindling, a tax of over
-50 percent would be required to cause a substantial reversal of the
-impacts.
+50 percent would be required to cause a substantial reversal of its
+negative impacts.
 \end{abstract}
 
 
@@ -299,14 +299,15 @@ global and inter-industry linkages.
 \section{Model}\label{model}
 
 We use a model that is based on the standard, comparative static GTAP
-model, as implemented by \citet{ivanic2025}. This model represents all
-key markets, i.e., production, input demand, factor incomes,
-consumption, trade and savings, in a global general equilibrium setting
-under the assumption of zero economic profits and constant returns to
-scale. Production is represented as a nested CES production function
-that combines factors into a value-added composite and intermediate
-inputs into an intermediate input composite at the bottom level. They
-are then combined into the final output at the top level.
+model \citep{hertel1997structure}, as implemented by \citet{ivanic2025}.
+This model represents all key markets, i.e., production, input demand,
+factor incomes, consumption, trade and savings, in a global general
+equilibrium setting under the assumption of zero economic profits and
+constant returns to scale. Production is represented as a nested CES
+production function that combines factors into a value-added composite
+and intermediate inputs into an intermediate input composite at the
+bottom level. They are then combined into the final output at the top
+level.
 
 We use GTAP for this work as this model has been widely used to analyze
 numerous policies such as Farm to Fork \citep{beckman2021, beckman2022},
@@ -888,18 +889,23 @@ adoption?}\label{how-does-a-tax-on-ai-use-affect-the-adoption}
 
 Having described two scenarios of global adoption of AI to replace
 clerical labor, we now consider the implication of taxing computing
-service when when firms use it to replace labor. We consider different
-rates of tax ranging from 0 to 100 percent. In
-Figure~\ref{fig-equivalent-variation-tax} we show the impact of the tax
-on global welfare. The figure suggests that with a tax rate of 95\% all
-adoption of AI ceases. The exact impact of the tax on AI adoption and
+service when used as a replacement for clerical labor. We consider
+several rates of the tax ranging from 0 to 100 percent. In
+Figure~\ref{fig-equivalent-variation-tax}, we show the resulting impact
+of the tax on global welfare for both assumptions of unemployment (red)
+and no unemployment (blue). The figure shows that with a tax rate of
+95\% (or higher) all adoption of AI ceases, resulting in no welfare
+change to the world. The exact impact of the tax on AI adoption and
 welfare depends on the whether the displaced clerical labor stays in the
-market; in this case, increasing the tax rate on AI from 0 to 100
-percent would almost linearly reduce its benefits to the global economy.
-On the other hand, if clerical labor exits the labor market, a tax rate
-below 35 percent would have only a small impact on the associated
-welfare loss; to prevent a substantial portion of such a loss would
-require a tax rate of 50\% or more.
+market (the no-unemployment assumption) or exits the market (the
+unemployment assumption). In the former case, increasing the tax rate on
+AI from 0 to 100 percent would almost linearly reduce its initial
+benefits to the global economy. On the other hand, if clerical labor
+exits the labor market, a tax rate below 35 percent would have only a
+small impact on the associated welfare loss (associated with AI's
+adoption); to prevent a substantial portion of the welfare loss
+associated with AI adoption under this assumption, a tax rate of 50\% or
+more is required.
 
 \begin{figure}
 
@@ -921,17 +927,17 @@ global AI use tax rates}
 \section{Conclusion}\label{conclusion}
 
 The Industrial Revolution, the Assembly Line, the mechanization of
-agriculture, robots on factory floors--these are all technological
+agriculture, robots on factory floors---these are all technological
 innovations that forced a realignment of labor. In each of these
 instances, laborers had to adapt to the situation, whether it was from
 learning a new skill or finding a new job. These innovations all led to
 leaps in global productivity, shaping the world as we now it today. The
 AI transition seems to be the next great technological innovation, one
 that will also force a realignment of labor. Unlike those noted
-previously, this innovation seems that it will affect higher
-skilled/wages more than unskilled labor. But, like all the others,
-capital is key and the gains seem like they will accrue to those with
-the means to procure the innovation.
+previously, this innovation seems that it will affect higher skilled
+more than unskilled labor. But, like all the others, capital is key and
+the gains seem like they will accrue to those with the means to procure
+the innovation.
 
 Given the potential for AI to affect many aspects of the global economy,
 there has been a lot of recent media attention and research. However, it
@@ -961,10 +967,12 @@ substantial impact of reducing the negative welfare implications of AI
 adoption.
 
 As mentioned above, there are many aspects of AI that are still unknown,
-and can change in the future. Our work operatlizes AI within a common
-CGE, future work could also consider the productivity interaction, or
-consider AI being introduced to developing countries at a lower rate
-than that for developed countries.
+and can change in the future. By making AI operational within a common
+CGE framework, the standard GTAP model, we have built the capacity to
+consider additional implications and modalities of AI adoption,
+including its adoption in developing countries at a lower cost, or its
+interaction with productivity and other policies commonly simulated in
+CGE models.
 
 \setcounter{section}{0}
 \renewcommand{\thesection}{\Alph{section}}
@@ -1197,7 +1205,235 @@ Zimbabwe & 66.19 & 4.41 & 2,184 \\
 
 
 \renewcommand\refname{Bibliography}
-\bibliography{references.bib}
+\begin{thebibliography}{25}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\href}[2]{#2}
+\providecommand{\path}[1]{#1}
+\providecommand{\DOIprefix}{doi:}
+\providecommand{\ArXivprefix}{arXiv:}
+\providecommand{\URLprefix}{URL: }
+\providecommand{\Pubmedprefix}{pmid:}
+\providecommand{\doi}[1]{\href{http://dx.doi.org/#1}{\path{#1}}}
+\providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
+\providecommand{\bibinfo}[2]{#2}
+\ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Acemoglu(2025)}]{acemoglu2025}
+\bibinfo{author}{Acemoglu, D.}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{The simple macroeconomics of ai}.
+\newblock \bibinfo{journal}{Economic Policy} \bibinfo{volume}{40},
+  \bibinfo{pages}{13--58}.
+\newblock \URLprefix
+  \url{https://academic.oup.com/economicpolicy/article/40/121/13/7728473},
+  \DOIprefix\doi{10.1093/epolic/eiae042}.
+%Type = Article
+\bibitem[{Acemoglu et~al.(2023)Acemoglu, Koster and Ozgen}]{acemoglu}
+\bibinfo{author}{Acemoglu, D.}, \bibinfo{author}{Koster, H.},
+  \bibinfo{author}{Ozgen, C.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Robots and workers: Evidence from the netherlands} ,
+  \bibinfo{pages}{w31009}\URLprefix
+  \url{http://www.nber.org/papers/w31009.pdf}, \DOIprefix\doi{10.3386/w31009}.
+%Type = Article
+\bibitem[{Anderson and Ponnusamy(2023)}]{anderson2023}
+\bibinfo{author}{Anderson, K.}, \bibinfo{author}{Ponnusamy, S.},
+  \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Structural transformation away from agriculture in
+  growing open economies}.
+\newblock \bibinfo{journal}{Agricultural Economics} \bibinfo{volume}{54},
+  \bibinfo{pages}{62--76}.
+\newblock \URLprefix
+  \url{https://onlinelibrary.wiley.com/doi/10.1111/agec.12745},
+  \DOIprefix\doi{10.1111/agec.12745}.
+%Type = Techreport
+\bibitem[{Autor and Thompson(2025)}]{autor2025}
+\bibinfo{author}{Autor, D.}, \bibinfo{author}{Thompson, N.},
+  \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Expertise}.
+\newblock \bibinfo{type}{Technical Report}. \bibinfo{address}{Cambridge, MA}.
+\newblock \URLprefix \url{http://www.nber.org/papers/w33941.pdf},
+  \DOIprefix\doi{10.3386/w33941}.
+%Type = Inproceedings
+\bibitem[{Bartelings et~al.(2016)Bartelings, Kavallari, Hans and
+  Martin}]{bartelings2016}
+\bibinfo{author}{Bartelings, H.}, \bibinfo{author}{Kavallari, A.},
+  \bibinfo{author}{Hans, v.M.}, \bibinfo{author}{Martin, V.L.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{16th annual conference on global economic analysis},
+  \bibinfo{publisher}{GTAP}, \bibinfo{address}{Washington, D.C.}
+%Type = Article
+\bibitem[{Beckman et~al.(2011)Beckman, Hertel and Tyner}]{beckman2011}
+\bibinfo{author}{Beckman, J.}, \bibinfo{author}{Hertel, T.},
+  \bibinfo{author}{Tyner, W.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Validating energy-oriented cge models}.
+\newblock \bibinfo{journal}{Energy Economics} \bibinfo{volume}{33},
+  \bibinfo{pages}{799--806}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1016/j.eneco.2011.01.005},
+  \DOIprefix\doi{10.1016/j.eneco.2011.01.005}.
+%Type = Article
+\bibitem[{Beckman et~al.(2021)Beckman, Ivanic and Jelliffe}]{beckman2021}
+\bibinfo{author}{Beckman, J.}, \bibinfo{author}{Ivanic, M.},
+  \bibinfo{author}{Jelliffe, J.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Market impacts of farm to fork: Reducing agricultural
+  input usage}.
+\newblock \bibinfo{journal}{Applied Economic Perspectives and Policy}
+  \bibinfo{volume}{44}, \bibinfo{pages}{1995--2013}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1002/aepp.13176},
+  \DOIprefix\doi{10.1002/aepp.13176}.
+%Type = Article
+\bibitem[{Beckman et~al.(2022)Beckman, Ivanic, Jelliffe and
+  Arita}]{beckman2022}
+\bibinfo{author}{Beckman, J.}, \bibinfo{author}{Ivanic, M.},
+  \bibinfo{author}{Jelliffe, J.}, \bibinfo{author}{Arita, S.},
+  \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Adopt or not adopt? mirror clauses and the european
+  green deal}.
+\newblock \bibinfo{journal}{Applied Economic Perspectives and Policy}
+  \bibinfo{volume}{44}, \bibinfo{pages}{2014--2033}.
+\newblock \URLprefix
+  \url{https://onlinelibrary.wiley.com/doi/10.1002/aepp.13317},
+  \DOIprefix\doi{10.1002/aepp.13317}.
+%Type = Article
+\bibitem[{Beckman et~al.(2023)Beckman, Ivanic and Shaik}]{beckman2023}
+\bibinfo{author}{Beckman, J.}, \bibinfo{author}{Ivanic, M.},
+  \bibinfo{author}{Shaik, S.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{How bilateral trade deals get in the way of
+  multilateral agreements: Why wto is marginalized}.
+\newblock \bibinfo{journal}{Journal of Policy Modeling} \bibinfo{volume}{45},
+  \bibinfo{pages}{877--894}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1016/j.jpolmod.2023.05.006},
+  \DOIprefix\doi{10.1016/j.jpolmod.2023.05.006}.
+%Type = Book
+\bibitem[{Clark(1940)}]{clark1940}
+\bibinfo{author}{Clark, C.}, \bibinfo{year}{1940}.
+\newblock \bibinfo{title}{The Conditions of Economic Progress.}
+\newblock \bibinfo{publisher}{Macmillan}.
+\newblock \URLprefix
+  \url{https://www.jstor.org/stable/10.2307/2225658?origin=crossref},
+  \DOIprefix\doi{10.2307/2225658}.
+%Type = Article
+\bibitem[{Fang et~al.(2024)Fang, Kang and May}]{fang2024}
+\bibinfo{author}{Fang, Z.}, \bibinfo{author}{Kang, S.H.}, \bibinfo{author}{May,
+  S.M.H.}, \bibinfo{year}{2024}.
+\newblock \bibinfo{title}{Does automation really reduce jobs?}
+\newblock \bibinfo{journal}{Asia and the Global Economy} \bibinfo{volume}{4},
+  \bibinfo{pages}{100099}.
+\newblock \URLprefix
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S2667111524000239},
+  \DOIprefix\doi{10.1016/j.aglobe.2024.100099}.
+%Type = Article
+\bibitem[{Fisher(1939)}]{fisher1939}
+\bibinfo{author}{Fisher, A.}, \bibinfo{year}{1939}.
+\newblock \bibinfo{title}{Production: Primary, secondary and tertiary}.
+\newblock \bibinfo{journal}{Economics Record} \bibinfo{volume}{15},
+  \bibinfo{pages}{24--38}.
+%Type = Article
+\bibitem[{Gangopadhyay and Mondal(2021)}]{gangopadhyay2021}
+\bibinfo{author}{Gangopadhyay, K.}, \bibinfo{author}{Mondal, D.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Productivity, relative sectoral prices, and total
+  factor productivity: Theory and evidence}.
+\newblock \bibinfo{journal}{Economic Modelling} \bibinfo{volume}{100},
+  \bibinfo{pages}{105509}.
+\newblock \URLprefix
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0264999321000985},
+  \DOIprefix\doi{10.1016/j.econmod.2021.105509}.
+%Type = Techreport
+\bibitem[{Hampole et~al.(2025)Hampole, Papanikolaou, Schmidt and
+  Seegmiller}]{hampole2025}
+\bibinfo{author}{Hampole, M.}, \bibinfo{author}{Papanikolaou, D.},
+  \bibinfo{author}{Schmidt, L.D.}, \bibinfo{author}{Seegmiller, B.},
+  \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{Artificial Intelligence and the Labor Market}.
+\newblock \bibinfo{type}{Technical Report}. \bibinfo{address}{Cambridge, MA}.
+\newblock \URLprefix \url{http://www.nber.org/papers/w33509.pdf},
+  \DOIprefix\doi{10.3386/w33509}.
+%Type = Article
+\bibitem[{Hertel et~al.(2007)Hertel, Hummels, Ivanic and Keeney}]{hertel2007}
+\bibinfo{author}{Hertel, T.}, \bibinfo{author}{Hummels, D.},
+  \bibinfo{author}{Ivanic, M.}, \bibinfo{author}{Keeney, R.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{How confident can we be of cge-based assessments of
+  free trade agreements?}
+\newblock \bibinfo{journal}{Economic Modelling} \bibinfo{volume}{24},
+  \bibinfo{pages}{611--635}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1016/j.econmod.2006.12.002},
+  \DOIprefix\doi{10.1016/j.econmod.2006.12.002}.
+%Type = Article
+\bibitem[{Hertel et~al.(1997)Hertel, Tsigas et~al.}]{hertel1997structure}
+\bibinfo{author}{Hertel, T.W.}, \bibinfo{author}{Tsigas, M.E.}, et~al.,
+  \bibinfo{year}{1997}.
+\newblock \bibinfo{title}{Structure of gtap}.
+\newblock \bibinfo{journal}{Global Trade Analysis: modeling and applications} ,
+  \bibinfo{pages}{13--73}.
+%Type = Article
+\bibitem[{Irwin(2026)}]{irwin}
+\bibinfo{author}{Irwin, N.}, \bibinfo{year}{2026}.
+\newblock \bibinfo{title}{The ai boom belongs to capital, not workers}.
+\newblock \bibinfo{journal}{Axios} \URLprefix
+  \url{https://www.axios.com/2026/02/11/ai-boom-labor-market-jobs}.
+%Type = Article
+\bibitem[{Ivanic(2025)}]{ivanic2025}
+\bibinfo{author}{Ivanic, M.}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{The gtap v7 model in julia}.
+\newblock \bibinfo{journal}{Journal of Global Economic Analysis}
+  \bibinfo{volume}{10}, \bibinfo{pages}{175--217}.
+\newblock \URLprefix \url{http://dx.doi.org/10.21642/JGEA.100104AF},
+  \DOIprefix\doi{10.21642/jgea.100104af}.
+%Type = Article
+\bibitem[{Ivanic et~al.(2023)Ivanic, Beckman and J.~Nava}]{ivanic2023}
+\bibinfo{author}{Ivanic, M.}, \bibinfo{author}{Beckman, J.},
+  \bibinfo{author}{J.~Nava, N.}, \bibinfo{year}{2023}.
+\newblock \bibinfo{title}{Estimation of the value-added/intermediate input
+  substitution elasticities consistent with the gtap data}.
+\newblock \bibinfo{journal}{Journal of Global Economic Analysis}
+  \bibinfo{volume}{8}, \bibinfo{pages}{136--161}.
+\newblock \URLprefix \url{http://dx.doi.org/10.21642/JGEA.080204AF},
+  \DOIprefix\doi{10.21642/jgea.080204af}.
+%Type = Book
+\bibitem[{Kuznets(1966)}]{kuznets1966}
+\bibinfo{author}{Kuznets, S.}, \bibinfo{year}{1966}.
+\newblock \bibinfo{title}{Modern economic growth: Rate, structure and spread}.
+\newblock \bibinfo{publisher}{Yale University Press}.
+%Type = Techreport
+\bibitem[{Manning and Aguirre(2026)}]{manning2026}
+\bibinfo{author}{Manning, S.}, \bibinfo{author}{Aguirre, T.},
+  \bibinfo{year}{2026}.
+\newblock \bibinfo{title}{How Adaptable Are American Workers to AI-Induced Job
+  Displacement?}
+\newblock \bibinfo{type}{Technical Report}.
+\newblock \URLprefix \url{http://dx.doi.org/10.3386/w34705},
+  \DOIprefix\doi{10.3386/w34705}.
+%Type = Article
+\bibitem[{Mills(2025)}]{mills2025}
+\bibinfo{author}{Mills, M.}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{The rise of ai: A reality check on energy and
+  economic impacts} .
+%Type = Article
+\bibitem[{Taheripour et~al.(2010)Taheripour, Hertel, Tyner, Beckman and
+  Birur}]{taheripour2010}
+\bibinfo{author}{Taheripour, F.}, \bibinfo{author}{Hertel, T.W.},
+  \bibinfo{author}{Tyner, W.E.}, \bibinfo{author}{Beckman, J.F.},
+  \bibinfo{author}{Birur, D.K.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Biofuels and their by-products: Global economic and
+  environmental implications}.
+\newblock \bibinfo{journal}{Biomass and Bioenergy} \bibinfo{volume}{34},
+  \bibinfo{pages}{278--289}.
+\newblock \URLprefix \url{http://dx.doi.org/10.1016/j.biombioe.2009.10.017},
+  \DOIprefix\doi{10.1016/j.biombioe.2009.10.017}.
+%Type = Article
+\bibitem[{UNCTAD(2025)}]{unctad2025}
+\bibinfo{author}{UNCTAD}, \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{2025 technology and innovation report} .
+%Type = Article
+\bibitem[{Weinstock and Tierno(2025)}]{weinstock}
+\bibinfo{author}{Weinstock, L.}, \bibinfo{author}{Tierno, P.},
+  \bibinfo{year}{2025}.
+\newblock \bibinfo{title}{The macroeconomic effects of artificial intelligence}
+  , \bibinfo{pages}{IF12762}\URLprefix
+  \url{https://www.congress.gov/crs-product/IF12762}.
+
+\end{thebibliography}
 
 
 
